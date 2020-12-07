@@ -9,3 +9,5 @@ import Foundation
 
 print("Hello, World!")
 
+let s = Solution()
+s.test()
