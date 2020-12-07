@@ -9,5 +9,5 @@ import Foundation
 
 print("Hello, World!")
 
-let s = Solution()
+let s = TwoSum()
 s.test()

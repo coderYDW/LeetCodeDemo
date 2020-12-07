@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Solution {
+class TwoSum {
     
     /// 两数之和
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
