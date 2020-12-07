@@ -9,5 +9,8 @@ import Foundation
 
 print("Hello, World!")
 
-let s = TwoSum()
-s.test()
+let t01 = TwoSum()
+t01.test()
+
+let t02 = Intersect()
+t02.test()

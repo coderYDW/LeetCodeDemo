@@ -9,7 +9,7 @@ import Foundation
 
 class TwoSum {
     
-    /// 两数之和
+    /// 1 两数之和
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dict = [Int: Int]()
         for i in 0 ..< nums.count {
