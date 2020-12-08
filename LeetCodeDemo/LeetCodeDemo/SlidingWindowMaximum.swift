@@ -21,6 +21,7 @@ class SlidingWindowMaximum {
             while !queue.isEmpty && queue.last! < nums[i] {
                 queue.removeLast()
             }
+            //新数入队
             queue.append(nums[i])
         }
         //第一个结果得出
@@ -35,7 +36,7 @@ class SlidingWindowMaximum {
             while !queue.isEmpty && queue.last! < nums[i] {
                 queue.removeLast()
             }
-            //加入新的数
+            //新数入队
             queue.append(nums[i])
             //队的第一个数始终是最大的
             res.append(queue.first!)
