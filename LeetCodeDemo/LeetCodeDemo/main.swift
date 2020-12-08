@@ -14,3 +14,6 @@ t01.test()
 
 let t02 = Intersect()
 t02.test()
+
+let t03 = SlidingWindowMaximum()
+t03.test()
