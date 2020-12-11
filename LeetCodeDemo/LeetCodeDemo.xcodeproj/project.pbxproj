@@ -12,6 +12,7 @@
 		E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */; };
 		E40EE18F25825BEE003E4885 /* MaxArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE18E25825BEE003E4885 /* MaxArea.swift */; };
 		E40EE19225827139003E4885 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE19125827139003E4885 /* FizzBuzz.swift */; };
+		E40EE1952583AD06003E4885 /* AddDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1942583AD06003E4885 /* AddDigits.swift */; };
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
 		E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511AA257E7EE000BA6EE3 /* Intersect.swift */; };
@@ -36,6 +37,7 @@
 		E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonnadeChange.swift; sourceTree = "<group>"; };
 		E40EE18E25825BEE003E4885 /* MaxArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxArea.swift; sourceTree = "<group>"; };
 		E40EE19125827139003E4885 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		E40EE1942583AD06003E4885 /* AddDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDigits.swift; sourceTree = "<group>"; };
 		E425119A257E7B7000BA6EE3 /* LeetCodeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E42511A5257E7C2200BA6EE3 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */,
 				E40EE18E25825BEE003E4885 /* MaxArea.swift */,
 				E40EE19125827139003E4885 /* FizzBuzz.swift */,
+				E40EE1942583AD06003E4885 /* AddDigits.swift */,
 			);
 			path = LeetCodeDemo;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */,
+				E40EE1952583AD06003E4885 /* AddDigits.swift in Sources */,
 				E40EE19225827139003E4885 /* FizzBuzz.swift in Sources */,
 				E425119E257E7B7000BA6EE3 /* main.swift in Sources */,
 				E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */,
