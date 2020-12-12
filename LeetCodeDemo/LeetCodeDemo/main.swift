@@ -25,6 +25,9 @@ print("Hello, World!")
 //    print("key: \(key), value: \(dic[key] ?? "-1")")
 //}
 
-let a = ValidAnagram()
-let result = a.isAnagram01("abcd", "adbc")
-print(result)
+//let a = ValidAnagram()
+//let result = a.isAnagram01("abcd", "adbc")
+//print(result)
+
+let g = GroupAnagrams()
+g.test(["eat","tea","tan","ate","nat","bat"])
