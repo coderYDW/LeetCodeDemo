@@ -18,9 +18,13 @@ print("Hello, World!")
 //let t03 = SlidingWindowMaximum()
 //t03.test()
 
-let dic = [3: "Fizz", 5: "Buzz"]
+//let dic = [3: "Fizz", 5: "Buzz"]
 
 //let dic = ["a" : 1, "b" : 2, "c" : 3, "d" : 4]
-for key in dic.keys.sorted(by: <) {
-    print("key: \(key), value: \(dic[key] ?? "-1")")
-}
+//for key in dic.keys.sorted(by: <) {
+//    print("key: \(key), value: \(dic[key] ?? "-1")")
+//}
+
+let a = ValidAnagram()
+let result = a.isAnagram01("abcd", "adbc")
+print(result)
