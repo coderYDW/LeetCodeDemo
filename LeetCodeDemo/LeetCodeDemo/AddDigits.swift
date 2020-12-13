@@ -8,8 +8,11 @@
 import Foundation
 
 class AddDigits {
-    
-    //x*100 + y*10 + z = x*99 + y*9 + x+y+z
+    /// 各位相加
+    /*
+     思考
+     x*100 + y*10 + z = x*99 + y*9 + x+y+z
+     */
     
     func addDigits(_ num: Int) -> Int {
         return (num - 1) % 9 + 1
@@ -23,15 +26,8 @@ class AddDigits {
         }
     }
     
+    /// 递归
     func addDigits02(_ num: Int) -> Int {
-        if num % 9 == 0 {
-            return num == 0 ? num : 9
-        } else {
-            return num % 9
-        }
-    }
-    
-    func addDigits03(_ num: Int) -> Int {
         if num < 10 {
             return num
         } else {

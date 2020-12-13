@@ -8,6 +8,7 @@
 import Foundation
 
 class RemoveOutermostParentheses {
+    /// 移除最外层括号
     func removeOuterParentheses(_ S: String) -> String {
         var count = 0
         var res = ""

@@ -15,6 +15,7 @@ import Foundation
  */
 
 class MaxArea {
+    /// 最大区域
     func maxArea(_ height: [Int]) -> Int {
         var left = 0, right = height.count - 1, res = 0
         while left < right {

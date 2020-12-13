@@ -29,5 +29,5 @@ print("Hello, World!")
 //let result = a.isAnagram01("abcd", "adbc")
 //print(result)
 
-let g = GroupAnagrams()
-g.test(["eat","tea","tan","ate","nat","bat"])
+//let g = GroupAnagrams()
+//g.test(["eat","tea","tan","ate","nat","bat"])

@@ -8,7 +8,8 @@
 import Foundation
 
 class Trap {
-    func trapLeftAndRightSqueeze(_ height: [Int]) -> Int {
+    /// 接雨水
+    func trap(_ height: [Int]) -> Int {
         var left = 0, right = height.count - 1
         var leftMax = 0, rightMax = 0, res = 0
         while left < right {

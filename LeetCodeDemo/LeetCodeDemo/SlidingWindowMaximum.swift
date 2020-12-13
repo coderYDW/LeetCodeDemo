@@ -8,7 +8,7 @@
 import Foundation
 
 class SlidingWindowMaximum {
-
+    /// 滑动窗口最大值
     func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
         guard k > 0 && nums.count > 0 else {
             return []

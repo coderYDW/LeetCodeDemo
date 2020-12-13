@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 class Intersect {
     /// 350 两个数组的交集 II
     func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {

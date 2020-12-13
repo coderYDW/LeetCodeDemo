@@ -8,7 +8,6 @@
 import Foundation
 
 class TwoSum {
-    
     /// 1 两数之和
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dict = [Int: Int]()

@@ -8,7 +8,7 @@
 import Foundation
 
 class ValidAnagram {
-    
+    /// 有效异位词
     func isAnagram(_ s: String, _ t: String) -> Bool {
         guard s.count == t.count else {
             return false
@@ -19,6 +19,7 @@ class ValidAnagram {
             return false
         }
     }
+    
     /* HashTable */
     func isAnagram01(_ s: String, _ t: String) -> Bool {
         guard s.count == t.count else {
