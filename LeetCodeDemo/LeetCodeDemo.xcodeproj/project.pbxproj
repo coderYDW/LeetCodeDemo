@@ -18,6 +18,7 @@
 		E40EE19E25851126003E4885 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE19D25851126003E4885 /* BinaryTree.swift */; };
 		E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1A02585E671003E4885 /* UglyNumber.swift */; };
 		E40EE1A4258609BA003E4885 /* TopKFrequent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1A3258609BA003E4885 /* TopKFrequent.swift */; };
+		E40EE1A725864511003E4885 /* NAryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1A625864511003E4885 /* NAryTree.swift */; };
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
 		E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511AA257E7EE000BA6EE3 /* Intersect.swift */; };
@@ -48,6 +49,7 @@
 		E40EE19D25851126003E4885 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 		E40EE1A02585E671003E4885 /* UglyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UglyNumber.swift; sourceTree = "<group>"; };
 		E40EE1A3258609BA003E4885 /* TopKFrequent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequent.swift; sourceTree = "<group>"; };
+		E40EE1A625864511003E4885 /* NAryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAryTree.swift; sourceTree = "<group>"; };
 		E425119A257E7B7000BA6EE3 /* LeetCodeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E42511A5257E7C2200BA6EE3 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				E40EE19D25851126003E4885 /* BinaryTree.swift */,
 				E40EE1A02585E671003E4885 /* UglyNumber.swift */,
 				E40EE1A3258609BA003E4885 /* TopKFrequent.swift */,
+				E40EE1A625864511003E4885 /* NAryTree.swift */,
 			);
 			path = LeetCodeDemo;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				E40EE18825810AA3003E4885 /* Trap.swift in Sources */,
 				E40EE1982584B7DF003E4885 /* ValidAnagram.swift in Sources */,
 				E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */,
+				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
 				E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,

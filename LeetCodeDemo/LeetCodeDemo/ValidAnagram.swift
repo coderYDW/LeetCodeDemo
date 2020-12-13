@@ -20,7 +20,7 @@ class ValidAnagram {
         }
     }
     
-    /* HashTable */
+    // 数组方式
     func isAnagram01(_ s: String, _ t: String) -> Bool {
         guard s.count == t.count else {
             return false
@@ -49,7 +49,7 @@ class ValidAnagram {
         return number
     }
     
-    /* HashMap */
+    //字典方式
     func isAnagram02(_ s: String, _ t: String) -> Bool {
         guard s.count == t.count else {
             return false

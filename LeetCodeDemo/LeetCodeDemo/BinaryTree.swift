@@ -75,6 +75,8 @@ class BinaryTree {
     }
     
     /* 前序遍历 */
+    
+    /// 递归
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         guard let root = root else {
             return []
