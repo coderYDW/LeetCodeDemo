@@ -16,10 +16,26 @@ class BinaryTree {
         guard let root = root else {
             return []
         }
-        var res: [Int] = []
-        res += inorderTraversal(root.left)
+        var res = [Int]()
+        res.append(contentsOf: inorderTraversal(root.left))
         res.append(root.val)
-        res += inorderTraversal(root.right)
+        res.append(contentsOf: inorderTraversal(root.right))
+        return res
+    }
+    
+    func inorderTraversal011(_ root: TreeNode?) -> [Int] {
+        var stack = [TreeNode]()
+        var res = [Int]()
+        var node = root
+        while node != nil || !stack.isEmpty {
+            while node != nil {
+                stack.append(node!)
+                node = node!.left
+            }
+            node = stack.popLast()
+            res.append(node!.val)
+            node = node?.right
+        }
         return res
     }
     
@@ -28,7 +44,7 @@ class BinaryTree {
     func inorderTraversal01(_ root: TreeNode?) -> [Int] {
         var stack: [TreeNode] = []
         var result: [Int] = []
-        var node: TreeNode? = root
+        var node = root
         while node != nil || !stack.isEmpty {
             while node != nil {
                 stack.append(node!)
@@ -83,8 +99,8 @@ class BinaryTree {
         }
         var res: [Int] = []
         res.append(root.val)
-        res += preorderTraversal(root.left)
-        res += preorderTraversal(root.right)
+        res.append(contentsOf: preorderTraversal(root.left))
+        res.append(contentsOf: preorderTraversal(root.right))
         return res
     }
     
