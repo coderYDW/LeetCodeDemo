@@ -140,8 +140,9 @@ class BinaryTree {
             //右子节点等于prev,遍历完右子节点回到根节点
             if node?.right == nil || node?.right === prev {
                 res.append(node!.val)
-                //设置为上次遍历值,node继续从栈内取值
+                //设置为上次遍历值
                 prev = node
+                //node设置为空,循环继续从栈内取值
                 node = nil
             } else {
                 //右子节点不为空,节点加入栈
