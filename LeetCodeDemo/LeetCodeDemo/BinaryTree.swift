@@ -109,8 +109,49 @@ class BinaryTree {
         return res
     }
     
-
+    /* 后序遍历 */
     
+    /// 递归
+    func postorderTraversal(_ root: TreeNode?) -> [Int] {
+        guard let root = root else {
+            return []
+        }
+        var res = [Int]()
+        res.append(contentsOf: postorderTraversal(root.left))
+        res.append(contentsOf: postorderTraversal(root.right))
+        res.append(root.val)
+        return res
+    }
+    
+    /// 迭代
+    func postorderTraversal01(_ root: TreeNode?) -> [Int] {
+        var stack = [TreeNode]()
+        var res = [Int]()
+        var node = root
+        var prev: TreeNode? = nil
+        while node != nil || !stack.isEmpty {
+            //一路向左
+            while node != nil {
+                stack.append(node!)
+                node = node!.left
+            }
+            node = stack.popLast()
+            //右子节点等于nil,没有右子节点
+            //右子节点等于prev,遍历完右子节点回到根节点
+            if node?.right == nil || node?.right === prev {
+                res.append(node!.val)
+                //设置为上次遍历值,node继续从栈内取值
+                prev = node
+                node = nil
+            } else {
+                //右子节点不为空,节点加入栈
+                stack.append(node!)
+                //向右走
+                node = node!.right
+            }
+        }
+        return res
+    }
     
 }
 
