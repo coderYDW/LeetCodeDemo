@@ -44,19 +44,39 @@ class BinaryTree {
     }
     /// 迭代
     func preorderTraversal11(_ root: TreeNode?) -> [Int] {
+        var stack = [TreeNode]()
+        var res = [Int]()
+        var node = root
+        while node != nil || !stack.isEmpty {
+            if node != nil {
+                //如果有左节点,一直向左
+                stack.append(node!)
+                node = node!.left
+            } else {
+                //结果
+                node = stack.popLast()
+                res.append(node!.val)
+                //右边节点
+                node = node?.right
+            }
+        }
+        return res
+    }
+    /// 迭代
+    func preorderTraversal12(_ root: TreeNode?) -> [Int] {
         var res = [Int]()
         guard let root = root else {
             return res
         }
         var stack = [root]
         while !stack.isEmpty {
-            let node = stack.popLast()!
-            res.append(node.val)
-            if node.right != nil {
-                stack.append(node.right!)
+            let node = stack.popLast()
+            res.append(node!.val)
+            if node!.right != nil {
+                stack.append(node!.right!)
             }
-            if node.left != nil {
-                stack.append(node.left!)
+            if node!.left != nil {
+                stack.append(node!.left!)
             }
         }
         return res
