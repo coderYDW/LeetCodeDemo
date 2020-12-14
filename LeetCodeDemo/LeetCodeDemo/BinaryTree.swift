@@ -23,38 +23,24 @@ class BinaryTree {
         return res
     }
     
-    func inorderTraversal011(_ root: TreeNode?) -> [Int] {
+    /// 迭代
+    func inorderTraversal01(_ root: TreeNode?) -> [Int] {
         var stack = [TreeNode]()
         var res = [Int]()
         var node = root
         while node != nil || !stack.isEmpty {
             while node != nil {
+                //如果有左节点,一直向左
                 stack.append(node!)
                 node = node!.left
             }
+            //结果
             node = stack.popLast()
             res.append(node!.val)
+            //右边节点
             node = node?.right
         }
         return res
-    }
-    
-    
-    /// 迭代
-    func inorderTraversal01(_ root: TreeNode?) -> [Int] {
-        var stack: [TreeNode] = []
-        var result: [Int] = []
-        var node = root
-        while node != nil || !stack.isEmpty {
-            while node != nil {
-                stack.append(node!)
-                node = node!.left
-            }
-            node = stack.popLast()
-            result.append(node!.val)
-            node = node?.right
-        }
-        return result
     }
     
     /// Morris 算法
@@ -73,7 +59,6 @@ class BinaryTree {
                 while predecessor!.right != nil && predecessor!.right !== current {
                     predecessor = predecessor!.right
                 }
-                
                 // 让 predecessor 的右指针指向 root，继续遍历左子树
                 if predecessor!.right === current {
                     predecessor!.right = nil
@@ -103,6 +88,29 @@ class BinaryTree {
         res.append(contentsOf: preorderTraversal(root.right))
         return res
     }
+    
+    /// 迭代
+    func preorderTraversal01(_ root: TreeNode?) -> [Int] {
+        var stack = [TreeNode]()
+        var res = [Int]()
+        var node = root
+        while node != nil || !stack.isEmpty {
+            while node != nil {
+                //节点加入
+                res.append(node!.val)
+                //有左一直向左
+                stack.append(node!)
+                node = node!.left
+            }
+            node = stack.popLast()
+            //右边节点
+            node = node?.right
+        }
+        return res
+    }
+    
+
+    
     
 }
 
