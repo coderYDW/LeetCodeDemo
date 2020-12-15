@@ -9,7 +9,7 @@ import Foundation
 
 class BinaryTree {
     
-    /* 中序遍历 */
+    // MARK: 中序遍历
     
     /// 递归
     func inorderTraversal(_ root: TreeNode?) -> [Int] {
@@ -63,40 +63,45 @@ class BinaryTree {
         return res
     }
     
-    
-    /// Morris 算法
+    /*
+     Morris 算法
+     1.current如果没有有左子节点,直接加入结果,current向右走一步
+     2.predecessor节点就是当前current节点向左走一步,然后一直向右走至无法走为止
+     3.predecessor处于最右,若不等于current,将predecessor右子节点指向current
+     4.predecessor等于current说明遍历完左子树,断开链接,current向右走一步
+     */
     func inorderTraversal20(_ root: TreeNode?) -> [Int] {
-        var current, predecessor: TreeNode?
-        var res: [Int] = []
-        current = root
+        var res = [Int]()
+        var current = root
+        var predecessor: TreeNode? = nil
         while current != nil {
-            // 如果没有左孩子，则直接访问右孩子
+            // 如果没有左子节点，则直接访问右子节点
             if current!.left == nil {
                 res.append(current!.val)
                 current = current!.right
-            } else {
-                // predecessor 节点就是当前 root 节点向左走一步，然后一直向右走至无法走为止
-                predecessor = current!.left
-                while predecessor!.right != nil && predecessor!.right !== current {
-                    predecessor = predecessor!.right
-                }
-                // 让 predecessor 的右指针指向 root，继续遍历左子树
-                if predecessor!.right === current {
-                    predecessor!.right = nil
-                    res.append(current!.val)
-                    current = current!.right
-                }
+                continue
+            }
+            //predecessor 节点就是当前 root 节点向左走一步 然后一直向右走至无法走为止
+            predecessor = current!.left
+            while predecessor!.right != nil && predecessor!.right !== current {
+                predecessor = predecessor!.right
+            }
+            
+            if predecessor!.right === current {
                 // 说明左子树已经访问完了，我们需要断开链接
-                else {
-                    predecessor!.right = current
-                    current = current!.left
-                }
+                predecessor!.right = nil
+                res.append(current!.val)
+                current = current!.right
+            } else {
+                // 让 predecessor 的右指针指向 root，继续遍历左子树
+                predecessor!.right = current
+                current = current!.left
             }
         }
         return res
     }
     
-    /* 前序遍历 */
+    // MARK: 前序遍历
     
     /// 递归
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
@@ -150,7 +155,7 @@ class BinaryTree {
         return res
     }
     
-    /* 后序遍历 */
+    // MARK: 后序遍历
     
     /// 递归
     func postorderTraversal(_ root: TreeNode?) -> [Int] {
@@ -196,6 +201,8 @@ class BinaryTree {
     }
     
 }
+
+// MARK: -
 
 public class TreeNode {
     public var val: Int
