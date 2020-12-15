@@ -22,6 +22,7 @@
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
 		E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511AA257E7EE000BA6EE3 /* Intersect.swift */; };
+		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF1D10257FA3CE00B034BE /* SlidingWindowMaximum.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E42511A5257E7C2200BA6EE3 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		E42511AA257E7EE000BA6EE3 /* Intersect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersect.swift; sourceTree = "<group>"; };
+		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FF1D10257FA3CE00B034BE /* SlidingWindowMaximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindowMaximum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +90,15 @@
 			isa = PBXGroup;
 			children = (
 				E425119D257E7B7000BA6EE3 /* main.swift */,
+				E4FACDA92588E984009EB46F /* Week02 */,
+				E4FACDAA2588E9AB009EB46F /* Week03 */,
+			);
+			path = LeetCodeDemo;
+			sourceTree = "<group>";
+		};
+		E4FACDA92588E984009EB46F /* Week02 */ = {
+			isa = PBXGroup;
+			children = (
 				E42511A5257E7C2200BA6EE3 /* TwoSum.swift */,
 				E42511AA257E7EE000BA6EE3 /* Intersect.swift */,
 				E4FF1D10257FA3CE00B034BE /* SlidingWindowMaximum.swift */,
@@ -104,7 +115,15 @@
 				E40EE1A3258609BA003E4885 /* TopKFrequent.swift */,
 				E40EE1A625864511003E4885 /* NAryTree.swift */,
 			);
-			path = LeetCodeDemo;
+			path = Week02;
+			sourceTree = "<group>";
+		};
+		E4FACDAA2588E9AB009EB46F /* Week03 */ = {
+			isa = PBXGroup;
+			children = (
+				E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */,
+			);
+			path = Week03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +197,7 @@
 				E40EE19225827139003E4885 /* FizzBuzz.swift in Sources */,
 				E40EE19E25851126003E4885 /* BinaryTree.swift in Sources */,
 				E425119E257E7B7000BA6EE3 /* main.swift in Sources */,
+				E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */,
 				E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */,
 				E40EE18F25825BEE003E4885 /* MaxArea.swift in Sources */,
 			);
