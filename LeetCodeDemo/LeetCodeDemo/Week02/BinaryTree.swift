@@ -11,6 +11,22 @@ class BinaryTree {
     
     // MARK: 中序遍历
     
+    /*
+     复杂度分析
+     
+     递归:
+         时间复杂度：O(n)，其中 n 为二叉树节点的个数。二叉树的遍历中每个节点会被访问一次且只会被访问一次。
+         空间复杂度：O(n)。空间复杂度取决于递归的栈深度，而栈深度在二叉树为一条链的情况下会达到 O(n) 的级别。
+     
+     迭代:
+        时间复杂度：O(n)，其中 n 为二叉树节点的个数。二叉树的遍历中每个节点会被访问一次且只会被访问一次。
+        空间复杂度：O(n)。空间复杂度取决于栈深度，而栈深度在二叉树为一条链的情况下会达到 O(n) 的级别。
+     
+     Morris算法:
+        时间复杂度：O(n)，其中 n 为二叉搜索树的节点个数。Morris 遍历中每个节点会被访问两次，因此总时间复杂度为 O(2n)=O(n)。
+        空间复杂度：O(1)。
+     */
+    
     /// 递归
     func inorderTraversal(_ root: TreeNode?) -> [Int] {
         guard let root = root else {
@@ -22,6 +38,23 @@ class BinaryTree {
         res.append(contentsOf: inorderTraversal(root.right))
         return res
     }
+    
+    /// 递归
+    func inorderTraversal01(_ root: TreeNode?) -> [Int] {
+        var res = [Int]()
+        inorder(root, &res)
+        return res
+    }
+    
+    func inorder(_ root: TreeNode?, _ res: inout [Int]) {
+        guard let root = root else {
+            return
+        }
+        inorder(root.left, &res)
+        res.append(root.val)
+        inorder(root.right, &res)
+    }
+    
     
     /// 迭代
     func inorderTraversal10(_ root: TreeNode?) -> [Int] {
