@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1803F648258AE9C700CD5C03 /* ReversePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F647258AE9C700CD5C03 /* ReversePrint.swift */; };
+		1803F64C258B54B800CD5C03 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F64B258B54B800CD5C03 /* LowestCommonAncestor.swift */; };
+		1803F64F258B553800CD5C03 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F64E258B553800CD5C03 /* Tree.swift */; };
 		E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1842580C526003E4885 /* RemoveOutermostParentheses.swift */; };
 		E40EE18825810AA3003E4885 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE18725810AA3003E4885 /* Trap.swift */; };
 		E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		1803F647258AE9C700CD5C03 /* ReversePrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrint.swift; sourceTree = "<group>"; };
+		1803F64B258B54B800CD5C03 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
+		1803F64E258B553800CD5C03 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		E40EE1842580C526003E4885 /* RemoveOutermostParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveOutermostParentheses.swift; sourceTree = "<group>"; };
 		E40EE18725810AA3003E4885 /* Trap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
 		E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonnadeChange.swift; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				E425119D257E7B7000BA6EE3 /* main.swift */,
+				1803F64E258B553800CD5C03 /* Tree.swift */,
 				E4FACDA92588E984009EB46F /* Week02 */,
 				E4FACDAA2588E9AB009EB46F /* Week03 */,
 			);
@@ -125,6 +130,7 @@
 			children = (
 				E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */,
 				1803F647258AE9C700CD5C03 /* ReversePrint.swift */,
+				1803F64B258B54B800CD5C03 /* LowestCommonAncestor.swift */,
 			);
 			path = Week03;
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 				E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */,
 				1803F648258AE9C700CD5C03 /* ReversePrint.swift in Sources */,
 				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
+				1803F64F258B553800CD5C03 /* Tree.swift in Sources */,
 				E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,
@@ -200,6 +207,7 @@
 				E40EE1952583AD06003E4885 /* AddDigits.swift in Sources */,
 				E40EE19225827139003E4885 /* FizzBuzz.swift in Sources */,
 				E40EE19E25851126003E4885 /* BinaryTree.swift in Sources */,
+				1803F64C258B54B800CD5C03 /* LowestCommonAncestor.swift in Sources */,
 				E425119E257E7B7000BA6EE3 /* main.swift in Sources */,
 				E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */,
 				E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */,
