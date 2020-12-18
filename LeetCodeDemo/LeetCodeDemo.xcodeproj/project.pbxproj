@@ -25,6 +25,7 @@
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
 		E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511AA257E7EE000BA6EE3 /* Intersect.swift */; };
+		E447E7ED258CDBB900E89845 /* MyCircularDeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7EC258CDBB900E89845 /* MyCircularDeque.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -63,6 +64,7 @@
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E42511A5257E7C2200BA6EE3 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		E42511AA257E7EE000BA6EE3 /* Intersect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersect.swift; sourceTree = "<group>"; };
+		E447E7EC258CDBB900E89845 /* MyCircularDeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircularDeque.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				1803F64B258B54B800CD5C03 /* LowestCommonAncestor.swift */,
 				E4FACDAE258C4B42009EB46F /* InvertTree.swift */,
 				E4FACDB1258C63CC009EB46F /* IsValidBST.swift */,
+				E447E7EC258CDBB900E89845 /* MyCircularDeque.swift */,
 			);
 			path = Week03;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */,
 				E40EE18825810AA3003E4885 /* Trap.swift in Sources */,
 				E40EE1982584B7DF003E4885 /* ValidAnagram.swift in Sources */,
+				E447E7ED258CDBB900E89845 /* MyCircularDeque.swift in Sources */,
 				E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */,
 				1803F648258AE9C700CD5C03 /* ReversePrint.swift in Sources */,
 				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
