@@ -17,19 +17,8 @@ class InvertTree {
         guard let root = root else {
             return nil
         }
+        //交换左右节点的值  drill down
         (root.left, root.right) = (invertTree(root.right), invertTree(root.left))
-        return root
-    }
-    
-    func invertTree01(_ root: TreeNode?) -> TreeNode? {
-        guard let root = root else {
-            return nil
-        }
-        //交换左右节点的值
-        (root.left, root.right) = (root.right, root.left)
-        //drill down
-        invertTree01(root.left)
-        invertTree01(root.right)
         return root
     }
     
