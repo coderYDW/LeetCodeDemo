@@ -27,6 +27,7 @@
 		E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511AA257E7EE000BA6EE3 /* Intersect.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
+		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
 		E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF1D10257FA3CE00B034BE /* SlidingWindowMaximum.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		E42511AA257E7EE000BA6EE3 /* Intersect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersect.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
+		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
 		E4FF1D10257FA3CE00B034BE /* SlidingWindowMaximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingWindowMaximum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 				1803F647258AE9C700CD5C03 /* ReversePrint.swift */,
 				1803F64B258B54B800CD5C03 /* LowestCommonAncestor.swift */,
 				E4FACDAE258C4B42009EB46F /* InvertTree.swift */,
+				E4FACDB1258C63CC009EB46F /* IsValidBST.swift */,
 			);
 			path = Week03;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				E40EE19E25851126003E4885 /* BinaryTree.swift in Sources */,
 				1803F64C258B54B800CD5C03 /* LowestCommonAncestor.swift in Sources */,
 				E425119E257E7B7000BA6EE3 /* main.swift in Sources */,
+				E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */,
 				E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */,
 				E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */,
 				E40EE18F25825BEE003E4885 /* MaxArea.swift in Sources */,

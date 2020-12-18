@@ -23,7 +23,7 @@ class GenerateParenthesis {
         if left < n {
             generate(left + 1, right, n, s + "(", &res)
         }
-        if left > right {        
+        if left > right {
             generate(left, right + 1, n, s + ")", &res)
         }
     }
