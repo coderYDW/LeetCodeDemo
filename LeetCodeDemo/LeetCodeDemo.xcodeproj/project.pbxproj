@@ -22,10 +22,18 @@
 		E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1A02585E671003E4885 /* UglyNumber.swift */; };
 		E40EE1A4258609BA003E4885 /* TopKFrequent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1A3258609BA003E4885 /* TopKFrequent.swift */; };
 		E40EE1A725864511003E4885 /* NAryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1A625864511003E4885 /* NAryTree.swift */; };
+		E41114D5258F965E007E9A3A /* Pow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114D4258F965E007E9A3A /* Pow.swift */; };
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
 		E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511AA257E7EE000BA6EE3 /* Intersect.swift */; };
 		E447E7ED258CDBB900E89845 /* MyCircularDeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7EC258CDBB900E89845 /* MyCircularDeque.swift */; };
+		E447E7F1258CF8B700E89845 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7F0258CF8B700E89845 /* MaxDepth.swift */; };
+		E447E7F4258DA62100E89845 /* MinDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7F3258DA62100E89845 /* MinDepth.swift */; };
+		E447E7F7258E19CD00E89845 /* BuildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7F6258E19CC00E89845 /* BuildTree.swift */; };
+		E447E7FA258E440900E89845 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7F9258E440900E89845 /* Combinations.swift */; };
+		E447E7FE258E51C000E89845 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7FD258E51C000E89845 /* Permutations.swift */; };
+		E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */; };
+		E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75E258F7CF400225CB6 /* Codec.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -60,11 +68,19 @@
 		E40EE1A02585E671003E4885 /* UglyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UglyNumber.swift; sourceTree = "<group>"; };
 		E40EE1A3258609BA003E4885 /* TopKFrequent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopKFrequent.swift; sourceTree = "<group>"; };
 		E40EE1A625864511003E4885 /* NAryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAryTree.swift; sourceTree = "<group>"; };
+		E41114D4258F965E007E9A3A /* Pow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pow.swift; sourceTree = "<group>"; };
 		E425119A257E7B7000BA6EE3 /* LeetCodeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E42511A5257E7C2200BA6EE3 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		E42511AA257E7EE000BA6EE3 /* Intersect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intersect.swift; sourceTree = "<group>"; };
 		E447E7EC258CDBB900E89845 /* MyCircularDeque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircularDeque.swift; sourceTree = "<group>"; };
+		E447E7F0258CF8B700E89845 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
+		E447E7F3258DA62100E89845 /* MinDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDepth.swift; sourceTree = "<group>"; };
+		E447E7F6258E19CC00E89845 /* BuildTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTree.swift; sourceTree = "<group>"; };
+		E447E7F9258E440900E89845 /* Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
+		E447E7FD258E51C000E89845 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
+		E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermuteUnique.swift; sourceTree = "<group>"; };
+		E4BBB75E258F7CF400225CB6 /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -140,6 +156,14 @@
 				E4FACDAE258C4B42009EB46F /* InvertTree.swift */,
 				E4FACDB1258C63CC009EB46F /* IsValidBST.swift */,
 				E447E7EC258CDBB900E89845 /* MyCircularDeque.swift */,
+				E447E7F0258CF8B700E89845 /* MaxDepth.swift */,
+				E447E7F3258DA62100E89845 /* MinDepth.swift */,
+				E447E7F6258E19CC00E89845 /* BuildTree.swift */,
+				E447E7F9258E440900E89845 /* Combinations.swift */,
+				E447E7FD258E51C000E89845 /* Permutations.swift */,
+				E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */,
+				E4BBB75E258F7CF400225CB6 /* Codec.swift */,
+				E41114D4258F965E007E9A3A /* Pow.swift */,
 			);
 			path = Week03;
 			sourceTree = "<group>";
@@ -203,24 +227,32 @@
 			files = (
 				E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */,
 				E40EE18825810AA3003E4885 /* Trap.swift in Sources */,
+				E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */,
 				E40EE1982584B7DF003E4885 /* ValidAnagram.swift in Sources */,
 				E447E7ED258CDBB900E89845 /* MyCircularDeque.swift in Sources */,
 				E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */,
 				1803F648258AE9C700CD5C03 /* ReversePrint.swift in Sources */,
 				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
+				E447E7FA258E440900E89845 /* Combinations.swift in Sources */,
 				1803F64F258B553800CD5C03 /* Tree.swift in Sources */,
 				E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,
+				E447E7FE258E51C000E89845 /* Permutations.swift in Sources */,
 				E40EE19B2584CEAE003E4885 /* GroupAnagrams.swift in Sources */,
 				E40EE1A4258609BA003E4885 /* TopKFrequent.swift in Sources */,
 				E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */,
+				E447E7F7258E19CD00E89845 /* BuildTree.swift in Sources */,
+				E447E7F4258DA62100E89845 /* MinDepth.swift in Sources */,
 				E40EE1952583AD06003E4885 /* AddDigits.swift in Sources */,
+				E41114D5258F965E007E9A3A /* Pow.swift in Sources */,
+				E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */,
 				E40EE19225827139003E4885 /* FizzBuzz.swift in Sources */,
 				E40EE19E25851126003E4885 /* BinaryTree.swift in Sources */,
 				1803F64C258B54B800CD5C03 /* LowestCommonAncestor.swift in Sources */,
 				E425119E257E7B7000BA6EE3 /* main.swift in Sources */,
 				E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */,
+				E447E7F1258CF8B700E89845 /* MaxDepth.swift in Sources */,
 				E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */,
 				E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */,
 				E40EE18F25825BEE003E4885 /* MaxArea.swift in Sources */,
