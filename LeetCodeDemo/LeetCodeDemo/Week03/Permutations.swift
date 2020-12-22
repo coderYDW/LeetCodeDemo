@@ -34,7 +34,7 @@ class Permutations {
                 return
             }
             for i in 0..<nums.count {
-                if visited[i] == true {
+                if visited[i] {
                     continue
                 }
                 temp.append(nums[i])
