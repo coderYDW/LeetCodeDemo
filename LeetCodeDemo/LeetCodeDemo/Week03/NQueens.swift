@@ -15,7 +15,7 @@ class NQueens {
         var cols = Set<Int>(), dia1 = Set<Int>(), dia2 = Set<Int>()
         func backtrack(_ row: Int) {
             if row == n {
-                res.append(generateQueensToString(queens, n))
+                res.append(generateBoard(queens, n))
                 return
             }
             for i in 0..<n {
@@ -45,13 +45,13 @@ class NQueens {
         return res
     }
     
-    func generateQueensToString(_ queens: [Int], _ n: Int) -> [String] {
-        var queensStrings = [String]()
+    func generateBoard(_ queens: [Int], _ n: Int) -> [String] {
+        var board = [String]()
         for i in 0..<n {
-            var col = [Character](repeating: ".", count: n)
-            col[queens[i]] = "Q"
-            queensStrings.append(String(col))
+            var row = [Character](repeating: ".", count: n)
+            row[queens[i]] = "Q"
+            board.append(String(row))
         }
-        return queensStrings
+        return board
     }
 }
