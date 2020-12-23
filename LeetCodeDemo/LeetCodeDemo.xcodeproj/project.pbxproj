@@ -106,6 +106,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E41114D825937D39007E9A3A /* Week04 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Week04;
+			sourceTree = "<group>";
+		};
 		E4251191257E7B7000BA6EE3 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +136,7 @@
 				1803F64E258B553800CD5C03 /* Tree.swift */,
 				E4FACDA92588E984009EB46F /* Week02 */,
 				E4FACDAA2588E9AB009EB46F /* Week03 */,
+				E41114D825937D39007E9A3A /* Week04 */,
 			);
 			path = LeetCodeDemo;
 			sourceTree = "<group>";
