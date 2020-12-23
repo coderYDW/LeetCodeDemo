@@ -13,6 +13,7 @@
 		1803F65325909B0500CD5C03 /* Subset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F65225909B0500CD5C03 /* Subset.swift */; };
 		1803F6562591D9DD00CD5C03 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6552591D9DD00CD5C03 /* MajorityElement.swift */; };
 		1803F6592591E41F00CD5C03 /* LetterOfPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */; };
+		1803F65C2592DD2D00CD5C03 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F65B2592DD2D00CD5C03 /* NQueens.swift */; };
 		E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1842580C526003E4885 /* RemoveOutermostParentheses.swift */; };
 		E40EE18825810AA3003E4885 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE18725810AA3003E4885 /* Trap.swift */; };
 		E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */; };
@@ -62,6 +63,7 @@
 		1803F65225909B0500CD5C03 /* Subset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subset.swift; sourceTree = "<group>"; };
 		1803F6552591D9DD00CD5C03 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterOfPhoneNumber.swift; sourceTree = "<group>"; };
+		1803F65B2592DD2D00CD5C03 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		E40EE1842580C526003E4885 /* RemoveOutermostParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveOutermostParentheses.swift; sourceTree = "<group>"; };
 		E40EE18725810AA3003E4885 /* Trap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
 		E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonnadeChange.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				1803F65225909B0500CD5C03 /* Subset.swift */,
 				1803F6552591D9DD00CD5C03 /* MajorityElement.swift */,
 				1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */,
+				1803F65B2592DD2D00CD5C03 /* NQueens.swift */,
 			);
 			path = Week03;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */,
+				1803F65C2592DD2D00CD5C03 /* NQueens.swift in Sources */,
 				E40EE18825810AA3003E4885 /* Trap.swift in Sources */,
 				E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */,
 				E40EE1982584B7DF003E4885 /* ValidAnagram.swift in Sources */,
