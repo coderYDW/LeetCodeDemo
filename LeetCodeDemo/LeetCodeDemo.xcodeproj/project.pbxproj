@@ -29,6 +29,7 @@
 		E41114D5258F965E007E9A3A /* Pow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114D4258F965E007E9A3A /* Pow.swift */; };
 		E41114DA25937D71007E9A3A /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114D925937D71007E9A3A /* MaxProfit.swift */; };
 		E41114DE259389F9007E9A3A /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114DD259389F9007E9A3A /* ClimbStairs.swift */; };
+		E41114E325947C61007E9A3A /* AssignCookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114E225947C61007E9A3A /* AssignCookies.swift */; };
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
 		E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511AA257E7EE000BA6EE3 /* Intersect.swift */; };
@@ -81,6 +82,7 @@
 		E41114D4258F965E007E9A3A /* Pow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pow.swift; sourceTree = "<group>"; };
 		E41114D925937D71007E9A3A /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		E41114DD259389F9007E9A3A /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
+		E41114E225947C61007E9A3A /* AssignCookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCookies.swift; sourceTree = "<group>"; };
 		E425119A257E7B7000BA6EE3 /* LeetCodeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E42511A5257E7C2200BA6EE3 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			children = (
 				E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */,
 				E41114D925937D71007E9A3A /* MaxProfit.swift */,
+				E41114E225947C61007E9A3A /* AssignCookies.swift */,
 			);
 			path = Week04;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				E447E7ED258CDBB900E89845 /* MyCircularDeque.swift in Sources */,
 				E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */,
 				1803F6592591E41F00CD5C03 /* LetterOfPhoneNumber.swift in Sources */,
+				E41114E325947C61007E9A3A /* AssignCookies.swift in Sources */,
 				1803F648258AE9C700CD5C03 /* ReversePrint.swift in Sources */,
 				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
 				E447E7FA258E440900E89845 /* Combinations.swift in Sources */,
