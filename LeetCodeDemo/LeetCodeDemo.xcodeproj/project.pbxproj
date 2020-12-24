@@ -113,6 +113,7 @@
 		E41114D825937D39007E9A3A /* Week04 */ = {
 			isa = PBXGroup;
 			children = (
+				E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */,
 				E41114D925937D71007E9A3A /* MaxProfit.swift */,
 			);
 			path = Week04;
@@ -154,7 +155,6 @@
 				E4FF1D10257FA3CE00B034BE /* SlidingWindowMaximum.swift */,
 				E40EE1842580C526003E4885 /* RemoveOutermostParentheses.swift */,
 				E40EE18725810AA3003E4885 /* Trap.swift */,
-				E40EE18A2581A0B9003E4885 /* LemonnadeChange.swift */,
 				E40EE18E25825BEE003E4885 /* MaxArea.swift */,
 				E40EE19125827139003E4885 /* FizzBuzz.swift */,
 				E40EE1942583AD06003E4885 /* AddDigits.swift */,

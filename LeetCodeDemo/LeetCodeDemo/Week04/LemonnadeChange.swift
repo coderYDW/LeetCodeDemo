@@ -10,6 +10,9 @@ import Foundation
 class LemonnadeChange {
     /// 柠檬水找零(贪心算法)
     func lemonadeChange(_ bills: [Int]) -> Bool {
+        guard bills.count > 0, bills.first == 5 else {
+            return false
+        }
         var five = 0, ten = 0
         for b in bills {
             if b == 5 {
