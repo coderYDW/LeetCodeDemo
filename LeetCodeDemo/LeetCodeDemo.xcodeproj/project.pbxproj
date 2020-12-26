@@ -47,6 +47,7 @@
 		E4EBEBC825972146007D26FE /* Minesweeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC725972146007D26FE /* Minesweeper.swift */; };
 		E4EBEBCB259739AB007D26FE /* JumpGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBCA259739AB007D26FE /* JumpGame.swift */; };
 		E4EBEBCE25974278007D26FE /* SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBCD25974278007D26FE /* SearchInRotatedSortedArray.swift */; };
+		E4EBEBD12597477E007D26FE /* Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBD02597477E007D26FE /* Search2DMatrix.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -107,6 +108,7 @@
 		E4EBEBC725972146007D26FE /* Minesweeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minesweeper.swift; sourceTree = "<group>"; };
 		E4EBEBCA259739AB007D26FE /* JumpGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame.swift; sourceTree = "<group>"; };
 		E4EBEBCD25974278007D26FE /* SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
+		E4EBEBD02597477E007D26FE /* Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2DMatrix.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				E4EBEBC725972146007D26FE /* Minesweeper.swift */,
 				E4EBEBCA259739AB007D26FE /* JumpGame.swift */,
 				E4EBEBCD25974278007D26FE /* SearchInRotatedSortedArray.swift */,
+				E4EBEBD02597477E007D26FE /* Search2DMatrix.swift */,
 			);
 			path = Week04;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				E41114D5258F965E007E9A3A /* Pow.swift in Sources */,
 				E41114DA25937D71007E9A3A /* MaxProfit.swift in Sources */,
 				E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */,
+				E4EBEBD12597477E007D26FE /* Search2DMatrix.swift in Sources */,
 				18E0F5CE2595936D00BAD43A /* NumberOfIsland.swift in Sources */,
 				E40EE19225827139003E4885 /* FizzBuzz.swift in Sources */,
 				E40EE19E25851126003E4885 /* BinaryTree.swift in Sources */,
