@@ -22,9 +22,9 @@ class SearchInRotatedSortedArray {
             if nums[mid] == target {
                 return mid
             }
-            if nums[0] <= nums[mid] {
+            if nums[l] <= nums[mid] {
                 //左边有序
-                if nums[0] <= target && nums[mid] > target {
+                if nums[l] <= target && nums[mid] > target {
                     //在左边
                     r = mid - 1
                 } else {
