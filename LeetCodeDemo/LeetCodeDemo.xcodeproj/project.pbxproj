@@ -42,6 +42,7 @@
 		E447E7FE258E51C000E89845 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7FD258E51C000E89845 /* Permutations.swift */; };
 		E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */; };
 		E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75E258F7CF400225CB6 /* Codec.swift */; };
+		E4EBEBC22596CB99007D26FE /* RobotSim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC12596CB99007D26FE /* RobotSim.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -97,6 +98,7 @@
 		E447E7FD258E51C000E89845 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermuteUnique.swift; sourceTree = "<group>"; };
 		E4BBB75E258F7CF400225CB6 /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
+		E4EBEBC12596CB99007D26FE /* RobotSim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSim.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				E41114D925937D71007E9A3A /* MaxProfit.swift */,
 				E41114E225947C61007E9A3A /* AssignCookies.swift */,
 				18E0F5CD2595936D00BAD43A /* NumberOfIsland.swift */,
+				E4EBEBC12596CB99007D26FE /* RobotSim.swift */,
 			);
 			path = Week04;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				E447E7F7258E19CD00E89845 /* BuildTree.swift in Sources */,
 				E447E7F4258DA62100E89845 /* MinDepth.swift in Sources */,
 				E40EE1952583AD06003E4885 /* AddDigits.swift in Sources */,
+				E4EBEBC22596CB99007D26FE /* RobotSim.swift in Sources */,
 				E41114D5258F965E007E9A3A /* Pow.swift in Sources */,
 				E41114DA25937D71007E9A3A /* MaxProfit.swift in Sources */,
 				E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */,
