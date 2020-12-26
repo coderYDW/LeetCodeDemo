@@ -97,7 +97,7 @@ class Minesweeper {
                 if tx < 0 || tx >= row || ty < 0 || ty >= col || board[tx][ty] != "E" || visited[tx][ty] {
                     continue
                 }
-                bfs(&board, tx, ty)
+                queue.append([tx, ty])
                 visited[tx][ty] = true
             }
         }
