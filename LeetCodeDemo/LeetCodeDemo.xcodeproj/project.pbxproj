@@ -44,6 +44,7 @@
 		E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75E258F7CF400225CB6 /* Codec.swift */; };
 		E4EBEBC22596CB99007D26FE /* RobotSim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC12596CB99007D26FE /* RobotSim.swift */; };
 		E4EBEBC52596D682007D26FE /* WordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC42596D682007D26FE /* WordLadder.swift */; };
+		E4EBEBC825972146007D26FE /* Minesweeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC725972146007D26FE /* Minesweeper.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -101,6 +102,7 @@
 		E4BBB75E258F7CF400225CB6 /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
 		E4EBEBC12596CB99007D26FE /* RobotSim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSim.swift; sourceTree = "<group>"; };
 		E4EBEBC42596D682007D26FE /* WordLadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLadder.swift; sourceTree = "<group>"; };
+		E4EBEBC725972146007D26FE /* Minesweeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minesweeper.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				18E0F5CD2595936D00BAD43A /* NumberOfIsland.swift */,
 				E4EBEBC12596CB99007D26FE /* RobotSim.swift */,
 				E4EBEBC42596D682007D26FE /* WordLadder.swift */,
+				E4EBEBC725972146007D26FE /* Minesweeper.swift */,
 			);
 			path = Week04;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				1803F648258AE9C700CD5C03 /* ReversePrint.swift in Sources */,
 				E4EBEBC52596D682007D26FE /* WordLadder.swift in Sources */,
 				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
+				E4EBEBC825972146007D26FE /* Minesweeper.swift in Sources */,
 				E447E7FA258E440900E89845 /* Combinations.swift in Sources */,
 				1803F64F258B553800CD5C03 /* Tree.swift in Sources */,
 				E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */,

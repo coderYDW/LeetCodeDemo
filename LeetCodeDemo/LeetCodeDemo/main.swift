@@ -37,6 +37,9 @@ print("Hello, World!")
 
 //MyCircularDeque.test()
 
-let a = [1, 2, 3, 4, 5, 6]
-let b = a[2...]
-print(b)
+//let a = [1, 2, 3, 4, 5, 6]
+//let b = a[2...]
+//print(b)
+
+let a = Minesweeper()
+a.test()
