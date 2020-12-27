@@ -48,6 +48,7 @@
 		E4EBEBCB259739AB007D26FE /* JumpGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBCA259739AB007D26FE /* JumpGame.swift */; };
 		E4EBEBCE25974278007D26FE /* SearchInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBCD25974278007D26FE /* SearchInRotatedSortedArray.swift */; };
 		E4EBEBD12597477E007D26FE /* Search2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBD02597477E007D26FE /* Search2DMatrix.swift */; };
+		E4EBEBD425974AAD007D26FE /* FindMinInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBD325974AAD007D26FE /* FindMinInRotatedSortedArray.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -109,6 +110,7 @@
 		E4EBEBCA259739AB007D26FE /* JumpGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGame.swift; sourceTree = "<group>"; };
 		E4EBEBCD25974278007D26FE /* SearchInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		E4EBEBD02597477E007D26FE /* Search2DMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2DMatrix.swift; sourceTree = "<group>"; };
+		E4EBEBD325974AAD007D26FE /* FindMinInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				E4EBEBCA259739AB007D26FE /* JumpGame.swift */,
 				E4EBEBCD25974278007D26FE /* SearchInRotatedSortedArray.swift */,
 				E4EBEBD02597477E007D26FE /* Search2DMatrix.swift */,
+				E4EBEBD325974AAD007D26FE /* FindMinInRotatedSortedArray.swift */,
 			);
 			path = Week04;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				E40EE1A4258609BA003E4885 /* TopKFrequent.swift in Sources */,
 				E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */,
 				E447E7F7258E19CD00E89845 /* BuildTree.swift in Sources */,
+				E4EBEBD425974AAD007D26FE /* FindMinInRotatedSortedArray.swift in Sources */,
 				E447E7F4258DA62100E89845 /* MinDepth.swift in Sources */,
 				E40EE1952583AD06003E4885 /* AddDigits.swift in Sources */,
 				E4EBEBC22596CB99007D26FE /* RobotSim.swift in Sources */,
