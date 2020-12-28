@@ -258,6 +258,37 @@ class BinaryTree {
         return res
     }
     
+    // MARK: - 每个树行中找最大值
+    func largestValues(_ root: TreeNode?) -> [Int] {
+        guard let root = root else {
+            return []
+        }
+        var res = [root.val]
+        var queue = [root]
+        if root.left != nil {
+            queue.append(root.left!)
+        }
+        if root.right != nil {
+            queue.append(root.right!)
+        }
+        while !queue.isEmpty {
+            let n = queue.count
+            var maxVal = Int.min
+            for _ in 0..<n {
+                let node = queue.removeFirst()
+                maxVal = max(maxVal, node.val)
+                if node.left != nil {
+                    queue.append(node.left!)
+                }
+                if node.right != nil {
+                    queue.append(node.right!)
+                }
+            }
+            res.append(maxVal)
+        }
+        return res
+    }
+    
 }
 
 
