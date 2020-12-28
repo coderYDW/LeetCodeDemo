@@ -36,7 +36,6 @@ class MinGeneticMutation {
             for g in "ACGT" {
                 arr[i] = g
                 let next = String(arr)
-                print(next)
                 if next == end {
                     return true
                 }
