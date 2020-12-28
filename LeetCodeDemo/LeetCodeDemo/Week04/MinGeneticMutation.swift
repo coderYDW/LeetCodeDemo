@@ -34,6 +34,9 @@ class MinGeneticMutation {
         for i in 0..<arr.count {
             let originChar = arr[i]
             for g in "ACGT" {
+                if originChar == g {
+                    continue
+                }
                 arr[i] = g
                 let next = String(arr)
                 if next == end {
