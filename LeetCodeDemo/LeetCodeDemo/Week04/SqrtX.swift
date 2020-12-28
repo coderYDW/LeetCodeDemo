@@ -57,7 +57,7 @@ class SqrtX {
     
     func mySqrt21(_ x: Int) -> Int {
         var r = Int64(x);
-        while r*r > x {
+        while r * r > x {
             r = (r + Int64(x)/r) / 2;
         }
         return Int(r);
