@@ -233,6 +233,31 @@ class BinaryTree {
         return res
     }
     
+    // MARK: - 层序遍历 BFS
+    func levelOrder(_ root: TreeNode?) -> [[Int]] {
+        guard let root = root else {
+            return []
+        }
+        var queue = [root]
+        var res = [[Int]]()
+        while !queue.isEmpty {
+            let n = queue.count
+            var tempLevel = [Int]()
+            for _ in 0..<n {
+                let node = queue.removeFirst()
+                tempLevel.append(node.val)
+                if node.left != nil {
+                    queue.append(node.left!)
+                }
+                if node.right != nil {
+                    queue.append(node.right!)
+                }
+            }
+            res.append(tempLevel)
+        }
+        return res
+    }
+    
 }
 
 
