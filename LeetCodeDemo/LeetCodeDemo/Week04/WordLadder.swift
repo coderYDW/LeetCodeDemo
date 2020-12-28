@@ -11,18 +11,16 @@ class WordLadder {
     
     //单向bfs
     func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {
-        var wordSet = Set<String>(wordList)
+        let wordSet = Set(wordList)
         guard wordSet.contains(endWord) else {
             return 0
         }
-        wordSet.remove(beginWord)
         var queue = [beginWord]
-        var visited: Set<String> = [beginWord]
-        
+        var visited: Set = [beginWord]
         var res = 1
         while !queue.isEmpty {
-            let size = queue.count
-            for _ in 0..<size {
+            let n = queue.count
+            for _ in 0..<n {
                 let word = queue.removeFirst()
                 if changeWordEveryOneLetter(word, endWord, &queue, wordSet, &visited) {
                     return res + 1
@@ -34,73 +32,68 @@ class WordLadder {
     }
     
     func changeWordEveryOneLetter(_ curWord: String, _ endWord: String, _ queue: inout [String], _ wordSet: Set<String>, _ visited: inout Set<String>) -> Bool {
-        var tempArr = Array(curWord)
-        for i in 0..<tempArr.count {
-            let originC = tempArr[i]
-            for j in "abcdefghijklmnopqrstuvwxyz" {
-                tempArr[i] = j
-                let tempStr = String(tempArr)
+        var wordArr = Array(curWord)
+        for i in 0..<wordArr.count {
+            let originChar = wordArr[i]
+            for j in "qwertyuiopasdfghjklmnbvcxz" {
+                if j == originChar {
+                    continue
+                }
+                wordArr[i] = j
+                let tempStr = String(wordArr)
                 if tempStr == endWord {
                     return true
                 }
-                if visited.contains(tempStr) || !wordSet.contains(tempStr) {
-                    continue
+                if wordSet.contains(tempStr) && !visited.contains(tempStr) {
+                    queue.append(tempStr)
+                    visited.insert(tempStr)
                 }
-                queue.append(tempStr)
-                visited.insert(tempStr)
             }
-            tempArr[i] = originC
+            wordArr[i] = originChar
         }
         return false
     }
     
     //双向bfs
     func ladderLength10(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {
-        let wordSet = Set<String>(wordList)
+        let wordSet = Set(wordList)
         guard wordSet.contains(endWord) else {
             return 0
         }
-        var beginVisited: Set<String> = [beginWord]
-        var endVisited: Set<String> = [endWord]
-        var visited = Set<String>()
-        
+        var beginSet: Set = [beginWord], endSet: Set = [endWord], visited: Set = [beginWord]
         var res = 1
-        while !beginVisited.isEmpty && !endVisited.isEmpty {
-            if beginVisited.count > endVisited.count {
-                swap(&beginVisited, &endVisited)
+        while !beginSet.isEmpty && !endSet.isEmpty {
+            if beginSet.count > endSet.count {
+                swap(&beginSet, &endSet)
             }
-            var nextLevelVisited = Set<String>()
-            for word in beginVisited {
-                if changeWordEveryOneLetter10(word, endVisited, &visited, wordSet, &nextLevelVisited) {
+            var nextLevelSet = Set<String>()
+            for word in beginSet {
+                if changeWordEveryOneLetter10(word, endSet, wordSet, &visited, &nextLevelSet) {
                     return res + 1
                 }
             }
-            beginVisited = nextLevelVisited
+            beginSet = nextLevelSet
             res += 1
         }
         return 0
     }
     
-    func changeWordEveryOneLetter10(_ word: String, _ endVisited: Set<String>, _ visited: inout Set<String>, _ wordSet: Set<String>, _ nextLevelVisited: inout Set<String>) -> Bool {
+    func changeWordEveryOneLetter10(_ word: String, _ endSet: Set<String>, _ wordSet: Set<String>, _ visited: inout Set<String>, _ nextLevelSet: inout Set<String>) -> Bool {
         var wordArr = Array(word)
-        for i in 0..<word.count {
-            let originC = wordArr[i]
-            for c in "abcdefghijklmnopqrstuvwxyz" {
-                if originC == c {
-                    continue
-                }
-                wordArr[i] = c
-                let nextWord = String(wordArr)
-                if endVisited.contains(nextWord) {
+        for i in 0..<wordArr.count {
+            let originChar = wordArr[i]
+            for j in "qwertyuioplkjhgfdsazxcvbnm" {
+                wordArr[i] = j
+                let tempStr = String(wordArr)
+                if endSet.contains(tempStr) {
                     return true
                 }
-                if !wordSet.contains(nextWord) || visited.contains(nextWord) {
-                    continue
+                if wordSet.contains(tempStr) && !visited.contains(tempStr) {
+                    nextLevelSet.insert(tempStr)
+                    visited.insert(tempStr)
                 }
-                nextLevelVisited.insert(nextWord)
-                visited.insert(nextWord)
             }
-            wordArr[i] = originC
+            wordArr[i] = originChar
         }
         return false
     }
