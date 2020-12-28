@@ -15,6 +15,7 @@
 		1803F6592591E41F00CD5C03 /* LetterOfPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */; };
 		1803F65C2592DD2D00CD5C03 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F65B2592DD2D00CD5C03 /* NQueens.swift */; };
 		18D87006259981AD0056FB8F /* MinGeneticMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D87005259981AD0056FB8F /* MinGeneticMutation.swift */; };
+		18D870092599AFFD0056FB8F /* SqrtX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D870082599AFFD0056FB8F /* SqrtX.swift */; };
 		18E0F5CE2595936D00BAD43A /* NumberOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E0F5CD2595936D00BAD43A /* NumberOfIsland.swift */; };
 		E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE1842580C526003E4885 /* RemoveOutermostParentheses.swift */; };
 		E40EE18825810AA3003E4885 /* Trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40EE18725810AA3003E4885 /* Trap.swift */; };
@@ -79,6 +80,7 @@
 		1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterOfPhoneNumber.swift; sourceTree = "<group>"; };
 		1803F65B2592DD2D00CD5C03 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		18D87005259981AD0056FB8F /* MinGeneticMutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinGeneticMutation.swift; sourceTree = "<group>"; };
+		18D870082599AFFD0056FB8F /* SqrtX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqrtX.swift; sourceTree = "<group>"; };
 		18E0F5CD2595936D00BAD43A /* NumberOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIsland.swift; sourceTree = "<group>"; };
 		E40EE1842580C526003E4885 /* RemoveOutermostParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveOutermostParentheses.swift; sourceTree = "<group>"; };
 		E40EE18725810AA3003E4885 /* Trap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trap.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				E4EBEBD02597477E007D26FE /* Search2DMatrix.swift */,
 				E4EBEBD325974AAD007D26FE /* FindMinInRotatedSortedArray.swift */,
 				18D87005259981AD0056FB8F /* MinGeneticMutation.swift */,
+				18D870082599AFFD0056FB8F /* SqrtX.swift */,
 			);
 			path = Week04;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				18E0F5CE2595936D00BAD43A /* NumberOfIsland.swift in Sources */,
 				E40EE19225827139003E4885 /* FizzBuzz.swift in Sources */,
 				E40EE19E25851126003E4885 /* BinaryTree.swift in Sources */,
+				18D870092599AFFD0056FB8F /* SqrtX.swift in Sources */,
 				1803F64C258B54B800CD5C03 /* LowestCommonAncestor.swift in Sources */,
 				E425119E257E7B7000BA6EE3 /* main.swift in Sources */,
 				E4EBEBDC25988422007D26FE /* WordLadderII.swift in Sources */,
