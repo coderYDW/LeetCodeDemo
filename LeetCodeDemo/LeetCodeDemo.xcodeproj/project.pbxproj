@@ -54,6 +54,7 @@
 		E4EBEBD425974AAD007D26FE /* FindMinInRotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBD325974AAD007D26FE /* FindMinInRotatedSortedArray.swift */; };
 		E4EBEBD8259872AC007D26FE /* JumpGameII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBD7259872AC007D26FE /* JumpGameII.swift */; };
 		E4EBEBDC25988422007D26FE /* WordLadderII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBDB25988422007D26FE /* WordLadderII.swift */; };
+		E4EBEBE1259B6DCD007D26FE /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBE0259B6DCD007D26FE /* Practice.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -121,6 +122,7 @@
 		E4EBEBD325974AAD007D26FE /* FindMinInRotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMinInRotatedSortedArray.swift; sourceTree = "<group>"; };
 		E4EBEBD7259872AC007D26FE /* JumpGameII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameII.swift; sourceTree = "<group>"; };
 		E4EBEBDB25988422007D26FE /* WordLadderII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLadderII.swift; sourceTree = "<group>"; };
+		E4EBEBE0259B6DCD007D26FE /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			children = (
 				E425119D257E7B7000BA6EE3 /* main.swift */,
 				1803F64E258B553800CD5C03 /* Tree.swift */,
+				E4EBEBE0259B6DCD007D26FE /* Practice.swift */,
 				E4FACDA92588E984009EB46F /* Week02 */,
 				E4FACDAA2588E9AB009EB46F /* Week03 */,
 				E41114D825937D39007E9A3A /* Week04 */,
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EBEBE1259B6DCD007D26FE /* Practice.swift in Sources */,
 				E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */,
 				1803F65C2592DD2D00CD5C03 /* NQueens.swift in Sources */,
 				E40EE18825810AA3003E4885 /* Trap.swift in Sources */,
