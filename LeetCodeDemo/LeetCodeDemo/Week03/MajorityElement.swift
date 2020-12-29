@@ -40,7 +40,7 @@ class MajorityElement {
      */
     func majorityElement20(_ nums: [Int]) -> Int {
         var count = 0, res = 0
-        for (_, value) in nums.enumerated() {
+        for value in nums {
             if count == 0 {
                 res = value
                 count += 1
