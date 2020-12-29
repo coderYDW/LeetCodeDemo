@@ -13,7 +13,7 @@ class MajorityElement {
      */
     func majorityElement(_ nums: [Int]) -> Int {
         var hashMap = [Int: Int]()
-        for (_, value) in nums.enumerated() {
+        for value in nums {
             hashMap[value] = (hashMap[value] ?? 0) + 1
             if hashMap[value]! > nums.count / 2 {
                 return value
