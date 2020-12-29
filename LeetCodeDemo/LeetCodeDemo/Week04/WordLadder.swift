@@ -83,6 +83,9 @@ class WordLadder {
         for i in 0..<wordArr.count {
             let originChar = wordArr[i]
             for j in "qwertyuioplkjhgfdsazxcvbnm" {
+                if originChar == j {
+                    continue
+                }
                 wordArr[i] = j
                 let tempStr = String(wordArr)
                 if endSet.contains(tempStr) {
