@@ -22,6 +22,18 @@ class TwoSum {
         return []
     }
     
+    func twoSum10(_ nums: [Int], _ target: Int) -> [Int] {
+        var dict = [Int: Int]()
+        for (i, v) in nums.enumerated() {
+            if dict[target - v] != nil {
+                return [dict[target - v]!, i]
+            } else {
+                dict[v] = i
+            }
+        }
+        return []
+    }
+    
     func test() {
         let nums = [2,7,11,15]
         let target = 9
