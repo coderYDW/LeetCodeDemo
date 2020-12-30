@@ -94,4 +94,73 @@ class Practice {
             generateParenthesisHelper(left, right + 1, n, &res, s + ")")
         }
     }
+    
+    struct Location: Hashable {
+        var x: Int
+        var y: Int
+    }
+    func robotSim(_ commands: [Int], _ obstacles: [[Int]]) -> Int {
+        var obSet = Set<Location>()
+        for o in obstacles {
+            obSet.insert(Location(x: o[0], y: o[1]))
+        }
+        var x = 0, y = 0, res = 0, d = 0
+        let dx = [0, 1, 0, -1], dy = [1, 0, -1, 0]
+        for c in commands {
+            if c == -2 {
+                d = (d + 3) % 4
+            } else if c == -1 {
+                d = (d + 1) % 4
+            } else {
+                for _ in 0..<c {
+                    if !obSet.contains(Location(x: x + dx[d], y: y + dy[d])) {
+                        x += dx[d]
+                        y += dy[d]
+                    }
+                }
+                res = max(res, x * x + y * y)
+            }
+        }
+        return res
+    }
+    
+    
+    func nthUglyNumber(_ n: Int) -> Int {
+        var dp = [Int](repeating: 0, count: n)
+        var a = 0, b = 0, c = 0
+        for i in 0..<n {
+            dp[i] = min(dp[a] * 2, dp[b] * 3, dp[c] * 5)
+            if dp[i] == dp[a] * 2 {
+                a += 1
+            }
+            if dp[i] == dp[b] * 3 {
+                b += 1
+            }
+            if dp[i] == dp[c] * 5 {
+                c += 1
+            }
+        }
+        return dp[n - 1]
+    }
+    
+    func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
+        var inorderDict = [Int: Int]()
+        for (i, v) in inorder.enumerated() {
+            inorderDict[v] = i
+        }
+        return buildTreeHelper(preorder, inorder, 0, preorder.count - 1, 0, preorder.count - 1, inorderDict)
+    }
+    
+    func buildTreeHelper(_ preorder: [Int], _ inorder: [Int], _ preLeft: Int, _ preRight: Int, _ inLeft: Int, _ inRight: Int, _ inorderDict: [Int: Int]) -> TreeNode? {
+        if preLeft > preRight {
+            return nil
+        }
+        let root = TreeNode(preorder[preLeft])
+        let rootIndex = inorderDict[preorder[preLeft]]!
+        let size = rootIndex - inLeft
+        root.left = buildTreeHelper(preorder, inorder, preLeft + 1, preLeft + size, inLeft, rootIndex - 1, inorderDict)
+        root.right = buildTreeHelper(preorder, inorder, preLeft + size + 1, preRight, rootIndex + 1, inRight, inorderDict)
+        return root
+    }
+    
 }
