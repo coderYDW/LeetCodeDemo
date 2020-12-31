@@ -8,7 +8,7 @@
 import Foundation
 
 class JumpGame {
-
+    
     func canJump(_ nums: [Int]) -> Bool {
         var reach = 0
         for i in 0..<nums.count {
@@ -28,5 +28,17 @@ class JumpGame {
             }
         }
         return last == 0
+    }
+    
+    func canJump20(_ nums: [Int]) -> Bool {
+        var position = 0
+        var i = nums.count - 1
+        while i >= 0 {
+            if i + nums[i] >= position {
+                position = i
+            }
+            i -= 1
+        }
+        return position == 0
     }
 }
