@@ -55,6 +55,9 @@
 		E4EBEBD8259872AC007D26FE /* JumpGameII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBD7259872AC007D26FE /* JumpGameII.swift */; };
 		E4EBEBDC25988422007D26FE /* WordLadderII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBDB25988422007D26FE /* WordLadderII.swift */; };
 		E4EBEBE1259B6DCD007D26FE /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBE0259B6DCD007D26FE /* Practice.swift */; };
+		E4EBEBE6259E0A8F007D26FE /* MaxSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBE5259E0A8F007D26FE /* MaxSubarray.swift */; };
+		E4EBEBEA259F752A007D26FE /* FourSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBE9259F752A007D26FE /* FourSum.swift */; };
+		E4EBEBED259F77DE007D26FE /* LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBEC259F77DE007D26FE /* LongestCommonSubsequence.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -123,6 +126,9 @@
 		E4EBEBD7259872AC007D26FE /* JumpGameII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpGameII.swift; sourceTree = "<group>"; };
 		E4EBEBDB25988422007D26FE /* WordLadderII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLadderII.swift; sourceTree = "<group>"; };
 		E4EBEBE0259B6DCD007D26FE /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		E4EBEBE5259E0A8F007D26FE /* MaxSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubarray.swift; sourceTree = "<group>"; };
+		E4EBEBE9259F752A007D26FE /* FourSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSum.swift; sourceTree = "<group>"; };
+		E4EBEBEC259F77DE007D26FE /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -188,8 +194,19 @@
 				E4FACDA92588E984009EB46F /* Week02 */,
 				E4FACDAA2588E9AB009EB46F /* Week03 */,
 				E41114D825937D39007E9A3A /* Week04 */,
+				E4EBEBE4259E0A55007D26FE /* Week05 */,
 			);
 			path = LeetCodeDemo;
+			sourceTree = "<group>";
+		};
+		E4EBEBE4259E0A55007D26FE /* Week05 */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBEBE5259E0A8F007D26FE /* MaxSubarray.swift */,
+				E4EBEBE9259F752A007D26FE /* FourSum.swift */,
+				E4EBEBEC259F77DE007D26FE /* LongestCommonSubsequence.swift */,
+			);
+			path = Week05;
 			sourceTree = "<group>";
 		};
 		E4FACDA92588E984009EB46F /* Week02 */ = {
@@ -310,6 +327,7 @@
 				E4EBEBD8259872AC007D26FE /* JumpGameII.swift in Sources */,
 				E4EBEBC52596D682007D26FE /* WordLadder.swift in Sources */,
 				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
+				E4EBEBE6259E0A8F007D26FE /* MaxSubarray.swift in Sources */,
 				E4EBEBCB259739AB007D26FE /* JumpGame.swift in Sources */,
 				E4EBEBC825972146007D26FE /* Minesweeper.swift in Sources */,
 				E447E7FA258E440900E89845 /* Combinations.swift in Sources */,
@@ -318,6 +336,7 @@
 				1803F6562591D9DD00CD5C03 /* MajorityElement.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,
+				E4EBEBEA259F752A007D26FE /* FourSum.swift in Sources */,
 				E447E7FE258E51C000E89845 /* Permutations.swift in Sources */,
 				E40EE19B2584CEAE003E4885 /* GroupAnagrams.swift in Sources */,
 				E40EE1A4258609BA003E4885 /* TopKFrequent.swift in Sources */,
@@ -331,6 +350,7 @@
 				18D87006259981AD0056FB8F /* MinGeneticMutation.swift in Sources */,
 				18D8700C2599CF980056FB8F /* ValidPerfectSquare.swift in Sources */,
 				E41114DA25937D71007E9A3A /* MaxProfit.swift in Sources */,
+				E4EBEBED259F77DE007D26FE /* LongestCommonSubsequence.swift in Sources */,
 				E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */,
 				E4EBEBD12597477E007D26FE /* Search2DMatrix.swift in Sources */,
 				18E0F5CE2595936D00BAD43A /* NumberOfIsland.swift in Sources */,
