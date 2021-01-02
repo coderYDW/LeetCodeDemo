@@ -9,6 +9,8 @@ import Foundation
 
 class UniquePaths {
     //不同路径
+    
+    //二维数组
     func uniquePaths(_ m: Int, _ n: Int) -> Int {
         var dp = [[Int]](repeating: [Int](repeating: 1, count: n), count: m)
         for i in 1..<m {
@@ -19,14 +21,27 @@ class UniquePaths {
         return dp[m - 1][n - 1]
     }
     
+    //使用一维数组
     func uniquePaths10(_ m: Int, _ n: Int) -> Int {
         var cur = [Int](repeating: 1, count: n)
-        for i in 1..<m {
+        for _ in 1..<m {
             for j in 1..<n {
                 cur[j] = cur[j - 1]
             }
         }
         return cur[n - 1]
+    }
+    
+    //数学组合数计算
+    func uniquePaths20(_ m: Int, _ n: Int) -> Int {
+        var ans = 1
+        var x = n, y = 1
+        while y < m {
+            ans = ans * x / y
+            x += 1
+            y += 1
+        }
+        return ans
     }
     
 }
