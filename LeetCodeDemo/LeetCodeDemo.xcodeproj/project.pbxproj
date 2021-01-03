@@ -60,6 +60,7 @@
 		E4EBEBED259F77DE007D26FE /* LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBEC259F77DE007D26FE /* LongestCommonSubsequence.swift */; };
 		E4EBEBF025A05493007D26FE /* Practice05.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBEF25A05493007D26FE /* Practice05.swift */; };
 		E4EBEBF325A0AC3E007D26FE /* UniquePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBF225A0AC3E007D26FE /* UniquePaths.swift */; };
+		E4EBEBF725A0B28E007D26FE /* UniquePathsII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBF625A0B28E007D26FE /* UniquePathsII.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -133,6 +134,7 @@
 		E4EBEBEC259F77DE007D26FE /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
 		E4EBEBEF25A05493007D26FE /* Practice05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice05.swift; sourceTree = "<group>"; };
 		E4EBEBF225A0AC3E007D26FE /* UniquePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePaths.swift; sourceTree = "<group>"; };
+		E4EBEBF625A0B28E007D26FE /* UniquePathsII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniquePathsII.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				E4EBEBE9259F752A007D26FE /* FourSum.swift */,
 				E4EBEBEC259F77DE007D26FE /* LongestCommonSubsequence.swift */,
 				E4EBEBF225A0AC3E007D26FE /* UniquePaths.swift */,
+				E4EBEBF625A0B28E007D26FE /* UniquePathsII.swift */,
 			);
 			path = Week05;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				E447E7FA258E440900E89845 /* Combinations.swift in Sources */,
 				1803F64F258B553800CD5C03 /* Tree.swift in Sources */,
 				E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */,
+				E4EBEBF725A0B28E007D26FE /* UniquePathsII.swift in Sources */,
 				1803F6562591D9DD00CD5C03 /* MajorityElement.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,
