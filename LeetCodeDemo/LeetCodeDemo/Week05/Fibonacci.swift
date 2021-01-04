@@ -12,7 +12,7 @@ class Fibonacci {
     /*
      总结:
      1.动态规划(最优解) 时间复杂度O(n) 空间复杂度O(1)
-     2.递归 F(n) = F(n - 1) + F(n - 2),可以添加缓存优化 时间复杂度O(n) 空间复杂度O(n)
+     2.递归(带缓存) F(n) = F(n - 1) + F(n - 2),可以添加缓存优化 时间复杂度O(n) 空间复杂度O(n)
      3.矩阵快速幂 时间复杂度O(logn) 空间复杂度O(1)
      4.通项公式 F(n) = 1 / sqrt(5) * [pow((1 + sqrt(5)) / 2, n) + pow((1 - sqrt(5)) / 2, n)] 时间复杂度O(1) 空间复杂度O(1)
      */
@@ -133,6 +133,18 @@ class Fibonacci {
     func dib230(_ n: Int) -> Int {
         let fibs = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040]
         return fibs[n]
+    }
+    
+    //递归(带缓存)
+    var resCache = [Int: Int]()
+    func fib240(_ n: Int) -> Int {
+        if n < 2 {
+            return n
+        }
+        if resCache[n] != nil {
+            return resCache[n]!
+        }
+        return fib240(n - 1) + fib240(n - 2)
     }
     
 }
