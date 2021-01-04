@@ -48,4 +48,38 @@ class Practice02 {
         return dp[m - 1][n - 1]
     }
     
+    func uniquePaths(_ m: Int, _ n: Int) -> Int {
+        guard m > 0, n > 0 else {
+            return 0
+        }
+        var f = [Int](repeating: 1, count: n)
+        for _ in 1..<m {
+            for i in 1..<n {
+                f[i] += f[i - 1]
+            }
+        }
+        return f[n - 1]
+    }
+    
+    func uniquePathsWithObstacles(_ obstacleGrid: [[Int]]) -> Int {
+        guard obstacleGrid.count > 0, obstacleGrid[0].count > 0 else {
+            return 0
+        }
+        let m = obstacleGrid.count, n = obstacleGrid[0].count
+        var f = [Int](repeating: 0, count: n)
+        f[0] = 1
+        for i in 0..<m {
+            for j in 0..<n {
+                if obstacleGrid[i][j] == 1 {
+                    f[j] = 0
+                    continue
+                }
+                if j >= 1 && obstacleGrid[i][j] == 0 {
+                    f[j] += f[j - 1]
+                }
+            }
+        }
+        return f[n - 1]
+    }
+    
 }

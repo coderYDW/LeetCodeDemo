@@ -17,7 +17,8 @@ class ThreeSum {
         let n = nums.count
         var res = [[Int]]()
         for i in 0..<n - 2 {
-            if nums[i] + nums[i + 1] + nums[i + 2] > 0 {
+            if nums[i] > 0 {
+                //最小的数大于0 直接不用做了
                 break
             }
             if i > 0 && nums[i] == nums[i - 1] {

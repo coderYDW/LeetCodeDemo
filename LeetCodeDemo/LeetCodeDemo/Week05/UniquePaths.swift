@@ -12,6 +12,9 @@ class UniquePaths {
     
     //二维数组
     func uniquePaths(_ m: Int, _ n: Int) -> Int {
+        guard m > 0, n > 0 else {
+            return 0
+        }
         var dp = [[Int]](repeating: [Int](repeating: 1, count: n), count: m)
         for i in 1..<m {
             for j in 1..<n {
@@ -23,6 +26,9 @@ class UniquePaths {
     
     //使用一维数组
     func uniquePaths10(_ m: Int, _ n: Int) -> Int {
+        guard m > 0, n > 0 else {
+            return 0
+        }
         var cur = [Int](repeating: 1, count: n)
         for _ in 1..<m {
             for j in 1..<n {
