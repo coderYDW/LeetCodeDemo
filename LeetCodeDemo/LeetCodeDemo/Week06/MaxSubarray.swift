@@ -11,6 +11,9 @@ class MaxSubarray {
     
     // 动态规划
     func maxSubArray(_ nums: [Int]) -> Int {
+        guard nums.count > 0 else {
+            return 0
+        }
         var pre = 0, ans = nums[0]
         for i in nums {
             pre = max(pre + i, i)

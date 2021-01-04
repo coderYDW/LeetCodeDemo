@@ -37,7 +37,7 @@ class Triangle {
         }
         return dp[0][0]
     }
-    
+    //一维数组
     func minimumTotal20(_ triangle: [[Int]]) -> Int {
         let n = triangle.count
         var dp = triangle[n - 1]
