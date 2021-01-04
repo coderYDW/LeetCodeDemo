@@ -33,9 +33,9 @@ class ThreeSum {
                     leftAddOne(&left, right, nums)
                     rightSubOne(left, &right, nums)
                 } else if sum > 0 {
-                    rightSubOne(left, &right, nums)
+                    right += 1
                 } else {
-                    leftAddOne(&left, right, nums)
+                    left -= 1
                 }
             }
         }
