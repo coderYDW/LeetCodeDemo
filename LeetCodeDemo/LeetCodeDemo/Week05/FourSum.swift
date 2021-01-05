@@ -44,9 +44,9 @@ class FourSum {
                         leftAddOne(&left, right, nums)
                         rightSubOne(left, &right, nums)
                     } else if sum < target {
-                        left += 1
+                        leftAddOne(&left, right, nums)
                     } else {
-                        right -= 1
+                        rightSubOne(left, &right, nums)
                     }
                 }
             }

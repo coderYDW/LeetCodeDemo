@@ -17,8 +17,7 @@ class ThreeSum {
         let n = nums.count
         var res = [[Int]]()
         for i in 0..<n - 2 {
-            if nums[i] > 0 {
-                //最小的数大于0 直接不用做了
+            if nums[i] + nums[i + 1] + nums[i + 2] > 0 {
                 break
             }
             if i > 0 && nums[i] == nums[i - 1] {
@@ -35,9 +34,9 @@ class ThreeSum {
                     leftAddOne(&left, right, nums)
                     rightSubOne(left, &right, nums)
                 } else if sum > 0 {
-                    right += 1
+                    rightSubOne(left, &right, nums)
                 } else {
-                    left -= 1
+                    leftAddOne(&left, right, nums)
                 }
             }
         }

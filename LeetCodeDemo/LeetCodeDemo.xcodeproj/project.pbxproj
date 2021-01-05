@@ -15,6 +15,7 @@
 		1803F6592591E41F00CD5C03 /* LetterOfPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */; };
 		1803F65C2592DD2D00CD5C03 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F65B2592DD2D00CD5C03 /* NQueens.swift */; };
 		18BBA02825A2F5E600CBE9ED /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */; };
+		18BBA02C25A4875F00CBE9ED /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA02B25A4875F00CBE9ED /* CoinChange.swift */; };
 		18D87006259981AD0056FB8F /* MinGeneticMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D87005259981AD0056FB8F /* MinGeneticMutation.swift */; };
 		18D870092599AFFD0056FB8F /* SqrtX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D870082599AFFD0056FB8F /* SqrtX.swift */; };
 		18D8700C2599CF980056FB8F /* ValidPerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8700B2599CF980056FB8F /* ValidPerfectSquare.swift */; };
@@ -92,6 +93,7 @@
 		1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterOfPhoneNumber.swift; sourceTree = "<group>"; };
 		1803F65B2592DD2D00CD5C03 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		18BBA02B25A4875F00CBE9ED /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		18D87005259981AD0056FB8F /* MinGeneticMutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinGeneticMutation.swift; sourceTree = "<group>"; };
 		18D870082599AFFD0056FB8F /* SqrtX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqrtX.swift; sourceTree = "<group>"; };
 		18D8700B2599CF980056FB8F /* ValidPerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPerfectSquare.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				E4EBEBE5259E0A8F007D26FE /* MaxSubarray.swift */,
 				E4EBEBF925A1626B007D26FE /* MinPathSum.swift */,
 				E4EBEBFC25A16DAF007D26FE /* Triangle.swift */,
+				18BBA02B25A4875F00CBE9ED /* CoinChange.swift */,
 			);
 			path = Week06;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				1803F64F258B553800CD5C03 /* Tree.swift in Sources */,
 				E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */,
 				E4EBEBF725A0B28E007D26FE /* UniquePathsII.swift in Sources */,
+				18BBA02C25A4875F00CBE9ED /* CoinChange.swift in Sources */,
 				1803F6562591D9DD00CD5C03 /* MajorityElement.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,
