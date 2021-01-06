@@ -16,6 +16,8 @@
 		1803F65C2592DD2D00CD5C03 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F65B2592DD2D00CD5C03 /* NQueens.swift */; };
 		18BBA02825A2F5E600CBE9ED /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */; };
 		18BBA02C25A4875F00CBE9ED /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA02B25A4875F00CBE9ED /* CoinChange.swift */; };
+		18BBA03125A5738300CBE9ED /* Practice06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03025A5738300CBE9ED /* Practice06.swift */; };
+		18BBA03525A581CF00CBE9ED /* Pratice02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03425A581CF00CBE9ED /* Pratice02.swift */; };
 		18D87006259981AD0056FB8F /* MinGeneticMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D87005259981AD0056FB8F /* MinGeneticMutation.swift */; };
 		18D870092599AFFD0056FB8F /* SqrtX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D870082599AFFD0056FB8F /* SqrtX.swift */; };
 		18D8700C2599CF980056FB8F /* ValidPerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8700B2599CF980056FB8F /* ValidPerfectSquare.swift */; };
@@ -94,6 +96,8 @@
 		1803F65B2592DD2D00CD5C03 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		18BBA02B25A4875F00CBE9ED /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
+		18BBA03025A5738300CBE9ED /* Practice06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice06.swift; sourceTree = "<group>"; };
+		18BBA03425A581CF00CBE9ED /* Pratice02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pratice02.swift; sourceTree = "<group>"; };
 		18D87005259981AD0056FB8F /* MinGeneticMutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinGeneticMutation.swift; sourceTree = "<group>"; };
 		18D870082599AFFD0056FB8F /* SqrtX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqrtX.swift; sourceTree = "<group>"; };
 		18D8700B2599CF980056FB8F /* ValidPerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPerfectSquare.swift; sourceTree = "<group>"; };
@@ -232,6 +236,7 @@
 		E4EBEBFF25A20BEB007D26FE /* Week06 */ = {
 			isa = PBXGroup;
 			children = (
+				18BBA03025A5738300CBE9ED /* Practice06.swift */,
 				E4EBEBE5259E0A8F007D26FE /* MaxSubarray.swift */,
 				E4EBEBF925A1626B007D26FE /* MinPathSum.swift */,
 				E4EBEBFC25A16DAF007D26FE /* Triangle.swift */,
@@ -243,6 +248,7 @@
 		E4FACDA92588E984009EB46F /* Week02 */ = {
 			isa = PBXGroup;
 			children = (
+				18BBA03425A581CF00CBE9ED /* Pratice02.swift */,
 				E42511A5257E7C2200BA6EE3 /* TwoSum.swift */,
 				18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */,
 				E42511AA257E7EE000BA6EE3 /* Intersect.swift */,
@@ -376,6 +382,7 @@
 				E4EBEBFD25A16DAF007D26FE /* Triangle.swift in Sources */,
 				E447E7FE258E51C000E89845 /* Permutations.swift in Sources */,
 				E40EE19B2584CEAE003E4885 /* GroupAnagrams.swift in Sources */,
+				18BBA03525A581CF00CBE9ED /* Pratice02.swift in Sources */,
 				E40EE1A4258609BA003E4885 /* TopKFrequent.swift in Sources */,
 				E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */,
 				E447E7F7258E19CD00E89845 /* BuildTree.swift in Sources */,
@@ -405,6 +412,7 @@
 				E41114DE259389F9007E9A3A /* ClimbStairs.swift in Sources */,
 				1803F65325909B0500CD5C03 /* Subset.swift in Sources */,
 				18BBA02825A2F5E600CBE9ED /* ThreeSum.swift in Sources */,
+				18BBA03125A5738300CBE9ED /* Practice06.swift in Sources */,
 				E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */,
 				E4EBEBCE25974278007D26FE /* SearchInRotatedSortedArray.swift in Sources */,
 				E40EE18F25825BEE003E4885 /* MaxArea.swift in Sources */,
