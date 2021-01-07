@@ -163,4 +163,44 @@ class Practice {
         return root
     }
     
+    func levelOrder(_ root: TreeNode?) -> [[Int]] {
+        guard let root = root else {
+            return []
+        }
+        var res = [[Int]]()
+        var queue = [root]
+        while !queue.isEmpty {
+            let n = queue.count
+            var levelTemp = [Int]()
+            for _ in 0..<n {
+                let node = queue.removeFirst()
+                levelTemp.append(node.val)
+                if node.left != nil {
+                    queue.append(node.left!)
+                }
+                if node.right != nil {
+                    queue.append(node.right!)
+                }
+            }
+            res.append(levelTemp)
+        }
+        return res
+    }
+    
+    func mySqrt(_ x: Int) -> Int {
+        var r = x
+        while r * r > x {
+            r = (r + x / r) / 2
+        }
+        return r
+    }
+    
+    func isPerfectSquare(_ num: Int) -> Bool {
+        var r = num
+        while r * r > num {
+            r = (r + num / r) / 2
+        }
+        return r * r == num
+    }
+    
 }
