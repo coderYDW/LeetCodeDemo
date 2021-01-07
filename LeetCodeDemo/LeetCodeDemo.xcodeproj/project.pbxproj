@@ -214,7 +214,7 @@
 			children = (
 				E425119D257E7B7000BA6EE3 /* main.swift */,
 				1803F64E258B553800CD5C03 /* Tree.swift */,
-				E4EBEBE0259B6DCD007D26FE /* Practice.swift */,
+				E4EBEC1225A6B449007D26FE /* Week01 */,
 				E4FACDA92588E984009EB46F /* Week02 */,
 				E4FACDAA2588E9AB009EB46F /* Week03 */,
 				E41114D825937D39007E9A3A /* Week04 */,
@@ -249,6 +249,14 @@
 				E4EBEC0F25A60195007D26FE /* HouseRobberII.swift */,
 			);
 			path = Week06;
+			sourceTree = "<group>";
+		};
+		E4EBEC1225A6B449007D26FE /* Week01 */ = {
+			isa = PBXGroup;
+			children = (
+				E4EBEBE0259B6DCD007D26FE /* Practice.swift */,
+			);
+			path = Week01;
 			sourceTree = "<group>";
 		};
 		E4FACDA92588E984009EB46F /* Week02 */ = {
