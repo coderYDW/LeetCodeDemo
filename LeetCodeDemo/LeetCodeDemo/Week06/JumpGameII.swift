@@ -45,6 +45,19 @@ class JumpGameII {
         return step
     }
     
-    //此题可使用动态规划,依次计算每个位置的最小步数
+    //动态规划,依次计算每个位置的最小步数(超时)
+    func jump20(_ nums: [Int]) -> Int {
+        let n = nums.count
+        var dp = [Int](repeating: n + 1, count: n)
+        dp[0] = 0
+        for i in 1..<n {
+            for j in 0..<i {
+                if j + nums[j] >= i {
+                    dp[i] = min(dp[i], dp[j] + 1)
+                }
+            }
+        }
+        return dp[n - 1]
+    }
     
 }

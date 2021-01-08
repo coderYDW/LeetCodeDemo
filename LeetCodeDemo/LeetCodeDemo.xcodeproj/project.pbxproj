@@ -184,8 +184,6 @@
 				E4EBEBC42596D682007D26FE /* WordLadder.swift */,
 				E4EBEBDB25988422007D26FE /* WordLadderII.swift */,
 				E4EBEBC725972146007D26FE /* Minesweeper.swift */,
-				E4EBEBCA259739AB007D26FE /* JumpGame.swift */,
-				E4EBEBD7259872AC007D26FE /* JumpGameII.swift */,
 				E4EBEBCD25974278007D26FE /* SearchInRotatedSortedArray.swift */,
 				E4EBEBD02597477E007D26FE /* Search2DMatrix.swift */,
 				E4EBEBD325974AAD007D26FE /* FindMinInRotatedSortedArray.swift */,
@@ -250,6 +248,8 @@
 				18BBA02B25A4875F00CBE9ED /* CoinChange.swift */,
 				E4EBEC0C25A5F9F8007D26FE /* HouseRobber.swift */,
 				E4EBEC0F25A60195007D26FE /* HouseRobberII.swift */,
+				E4EBEBCA259739AB007D26FE /* JumpGame.swift */,
+				E4EBEBD7259872AC007D26FE /* JumpGameII.swift */,
 			);
 			path = Week06;
 			sourceTree = "<group>";

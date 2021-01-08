@@ -56,4 +56,19 @@ class Practice06 {
         }
         return dp[m - 1][n - 1]
     }
+    
+    func minimumTotal(_ triangle: [[Int]]) -> Int {
+        guard triangle.count > 0, triangle.last!.count > 0 else {
+            return 0
+        }
+        let m = triangle.count
+        var dp = triangle.last!
+        for i in 0..<m - 1 {
+            for j in 0..<triangle[i].count {
+                dp[j] += dp[j + 1]
+            }
+        }
+        return dp[0]
+    }
+    
 }
