@@ -41,5 +41,5 @@ print("Hello, World!")
 //let b = a[2...]
 //print(b)
 
-let a = ThreeSum()
+let a = EditDistance()
 a.test()
