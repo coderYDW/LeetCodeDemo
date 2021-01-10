@@ -74,6 +74,8 @@
 		E4EBEC1A25A8AC9E007D26FE /* CoinChangeII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC1925A8AC9E007D26FE /* CoinChangeII.swift */; };
 		E4EBEC1D25A8ACFD007D26FE /* EditDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC1C25A8ACFD007D26FE /* EditDistance.swift */; };
 		E4EBEC2125A8B491007D26FE /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2025A8B491007D26FE /* RotateArray.swift */; };
+		E4EBEC2425AA07F8007D26FE /* StockIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2325AA07F8007D26FE /* StockIII.swift */; };
+		E4EBEC2725AAFB85007D26FE /* PerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2625AAFB85007D26FE /* PerfectSquare.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -161,6 +163,8 @@
 		E4EBEC1925A8AC9E007D26FE /* CoinChangeII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinChangeII.swift; sourceTree = "<group>"; };
 		E4EBEC1C25A8ACFD007D26FE /* EditDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDistance.swift; sourceTree = "<group>"; };
 		E4EBEC2025A8B491007D26FE /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
+		E4EBEC2325AA07F8007D26FE /* StockIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockIII.swift; sourceTree = "<group>"; };
+		E4EBEC2625AAFB85007D26FE /* PerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectSquare.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -258,6 +262,8 @@
 				E4EBEBCA259739AB007D26FE /* JumpGame.swift */,
 				E4EBEBD7259872AC007D26FE /* JumpGameII.swift */,
 				E4EBEC1C25A8ACFD007D26FE /* EditDistance.swift */,
+				E4EBEC2325AA07F8007D26FE /* StockIII.swift */,
+				E4EBEC2625AAFB85007D26FE /* PerfectSquare.swift */,
 			);
 			path = Week06;
 			sourceTree = "<group>";
@@ -409,6 +415,7 @@
 				E4EBEBEA259F752A007D26FE /* FourSum.swift in Sources */,
 				E4EBEBFD25A16DAF007D26FE /* Triangle.swift in Sources */,
 				E4EBEC1A25A8AC9E007D26FE /* CoinChangeII.swift in Sources */,
+				E4EBEC2425AA07F8007D26FE /* StockIII.swift in Sources */,
 				E447E7FE258E51C000E89845 /* Permutations.swift in Sources */,
 				E40EE19B2584CEAE003E4885 /* GroupAnagrams.swift in Sources */,
 				18BBA03525A581CF00CBE9ED /* Pratice02.swift in Sources */,
@@ -417,6 +424,7 @@
 				E447E7F7258E19CD00E89845 /* BuildTree.swift in Sources */,
 				E4EBEBD425974AAD007D26FE /* FindMinInRotatedSortedArray.swift in Sources */,
 				E4EBEC1D25A8ACFD007D26FE /* EditDistance.swift in Sources */,
+				E4EBEC2725AAFB85007D26FE /* PerfectSquare.swift in Sources */,
 				E447E7F4258DA62100E89845 /* MinDepth.swift in Sources */,
 				18BBA03F25A6DE0000CBE9ED /* Practice04.swift in Sources */,
 				E40EE1952583AD06003E4885 /* AddDigits.swift in Sources */,
