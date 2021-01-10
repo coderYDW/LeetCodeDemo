@@ -16,7 +16,7 @@ class MaxSquare {
         }
         let m = matrix.count, n = matrix[0].count
         var dp = [[Int]](repeating: [Int](repeating: 0, count: n), count: m)
-        var maxVal = 0
+        var maxSide = 0
         for i in 0..<m {
             for j in 0..<n {
                 if matrix[i][j] == "1" {
@@ -25,10 +25,10 @@ class MaxSquare {
                     } else {
                         dp[i][j] = min(dp[i -  1][j], dp[i][j - 1], dp[i - 1][j - 1]) + 1
                     }
-                    maxVal = max(maxVal, dp[i][j])
+                    maxSide = max(maxSide, dp[i][j])
                 }
             }
         }
-        return maxVal * maxVal
+        return maxSide * maxSide
     }
 }
