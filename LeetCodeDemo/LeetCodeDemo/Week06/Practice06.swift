@@ -71,4 +71,66 @@ class Practice06 {
         return dp[0]
     }
     
+    func maximalSquare(_ matrix: [[Character]]) -> Int {
+        guard matrix.count > 0, matrix[0].count > 0 else {
+            return 0
+        }
+        let m = matrix.count, n = matrix[0].count
+        var dp = [[Int]](repeating: [Int](repeating: 0, count: n), count: m)
+        var maxSide = 0
+        for i in 0..<m {
+            for j in 0..<n {
+                if matrix[i][j] == "1" {
+                    if i == 0 || j == 0 {
+                        dp[i][j] = 1
+                    } else {
+                        dp[i][j] = min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]) + 1
+                    }
+                    maxSide = max(maxSide, dp[i][j])
+                }
+            }
+        }
+        return maxSide * maxSide
+    }
+    
+    func numSquares(_ n: Int) -> Int {
+        guard n > 0 else {
+            return 0
+        }
+        var dp = [Int](repeating: n + 1, count: n + 1)
+        dp[0] = 0
+        for i in 0..<n + 1 {
+            dp[i] = i
+            var j = 1
+            while i >= j * j {
+                dp[i] = min(dp[i], dp[i - j * j] + 1)
+                j += 1
+            }
+        }
+        return dp[n]
+    }
+    
+    func sortColors(_ nums: inout [Int]) {
+        guard nums.count > 2 else {
+            return
+        }
+        let n = nums.count
+        // [0, p0) = 0
+        // (p0, i) = 1
+        // (p2, n) = 2
+        var p0 = 0, p2 = n - 1, i = 0
+        while i <= p2 {
+            if nums[i] == 0 {
+                nums.swapAt(i, p0)
+                p0 += 1
+                i += 1
+            } else if nums[i] == 2 {
+                nums.swapAt(i, p2)
+                p2 -= 1
+            } else {
+                i += 1
+            }
+        }
+    }
+    
 }

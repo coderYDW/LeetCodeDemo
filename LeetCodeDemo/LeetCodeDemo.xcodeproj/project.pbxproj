@@ -78,6 +78,7 @@
 		E4EBEC2725AAFB85007D26FE /* PerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2625AAFB85007D26FE /* PerfectSquare.swift */; };
 		E4EBEC2A25AB2B28007D26FE /* DecodeWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2925AB2B28007D26FE /* DecodeWays.swift */; };
 		E4EBEC2D25AB305F007D26FE /* MaxSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2C25AB305F007D26FE /* MaxSquare.swift */; };
+		E4EBEC3025AC9E46007D26FE /* SortColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2F25AC9E46007D26FE /* SortColor.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -169,6 +170,7 @@
 		E4EBEC2625AAFB85007D26FE /* PerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectSquare.swift; sourceTree = "<group>"; };
 		E4EBEC2925AB2B28007D26FE /* DecodeWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeWays.swift; sourceTree = "<group>"; };
 		E4EBEC2C25AB305F007D26FE /* MaxSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSquare.swift; sourceTree = "<group>"; };
+		E4EBEC2F25AC9E46007D26FE /* SortColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColor.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 			children = (
 				E4EBEBE0259B6DCD007D26FE /* Practice.swift */,
 				E4EBEC2025A8B491007D26FE /* RotateArray.swift */,
+				E4EBEC2F25AC9E46007D26FE /* SortColor.swift */,
 			);
 			path = Week01;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				E4EBEBF025A05493007D26FE /* Practice05.swift in Sources */,
 				18D870092599AFFD0056FB8F /* SqrtX.swift in Sources */,
 				1803F64C258B54B800CD5C03 /* LowestCommonAncestor.swift in Sources */,
+				E4EBEC3025AC9E46007D26FE /* SortColor.swift in Sources */,
 				E4EBEC0D25A5F9F8007D26FE /* HouseRobber.swift in Sources */,
 				E425119E257E7B7000BA6EE3 /* main.swift in Sources */,
 				E4EBEBDC25988422007D26FE /* WordLadderII.swift in Sources */,
