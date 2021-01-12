@@ -83,23 +83,23 @@ class Practice02 {
     }
     
     func fourSum(_ nums: [Int], _ target: Int) -> [[Int]] {
-        guard nums.count >= 4 else {
+        guard nums.count > 3 else {
             return []
         }
         let nums = nums.sorted()
         let n = nums.count
-        if nums[n - 4] + nums[n - 1] + nums[n - 2] + nums[n - 3] < target {
+        if nums[n - 1] + nums[n - 2] + nums[n - 3] + nums[n - 4] < target {
             return []
         }
         if nums[0] + nums[1] + nums[2] + nums[3] > target {
             return []
         }
-        var res = [[Int]]()
+        var res = [[Int]](), left: Int, right: Int
         for i in 0..<n - 3 {
             if nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] > target {
                 break
             }
-            if nums[i] == nums[i - 1] {
+            if i > 0 && nums[i] == nums[i - 1] {
                 continue
             }
             if nums[i] + nums[n - 1] + nums[n - 2] + nums[n - 3] < target {
@@ -115,7 +115,8 @@ class Practice02 {
                 if nums[i] + nums[n - 1] + nums[n - 2] + nums[j] < target {
                     continue
                 }
-                var left = j + 1, right = n - 1
+                left = j + 1
+                right = n - 1
                 while left < right {
                     let sum = nums[i] + nums[j] + nums[left] + nums[right]
                     if sum == target {
@@ -128,16 +129,16 @@ class Practice02 {
                             right -= 1
                         }
                         right -= 1
-                    } else if sum > target {
-                        while left < right && nums[right] == nums[right - 1] {
-                            right -= 1
-                        }
-                        right -= 1
-                    } else {
+                    } else if sum < target {
                         while left < right && nums[left] == nums[left + 1] {
                             left += 1
                         }
                         left += 1
+                    } else {
+                        while left < right && nums[right] == nums[right - 1] {
+                            right -= 1
+                        }
+                        right -= 1
                     }
                 }
             }

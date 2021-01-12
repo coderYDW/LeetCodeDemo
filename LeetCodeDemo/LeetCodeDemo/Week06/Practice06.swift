@@ -133,4 +133,27 @@ class Practice06 {
         }
     }
     
+    //打家劫舍
+    func rob(_ nums: [Int]) -> Int {
+        let n = nums.count
+        if n == 0 {
+            return 0
+        }
+        if n == 1 {
+            return nums[0]
+        }
+        let rob1 = robHelper(Array(nums[1..<n])) //不打劫第一间
+        let rob2 = robHelper(Array(nums[0..<n - 1])) //不打劫最后一间
+        return max(rob1, rob2)
+    }
+    func robHelper(_ nums: [Int]) -> Int {
+        var pre = 0, cur = 0, temp: Int
+        for i in nums {
+            temp = cur
+            cur = max(cur, pre + i)
+            pre = temp
+        }
+        return cur
+    }
+    
 }
