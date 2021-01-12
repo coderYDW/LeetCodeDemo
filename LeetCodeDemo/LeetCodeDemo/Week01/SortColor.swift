@@ -11,7 +11,7 @@ class SortColor {
     //颜色分类
     //双指针
     func sortColors(_ nums: inout [Int]) {
-        guard nums.count > 2 else {
+        guard nums.count > 1 else {
             return
         }
         let n = nums.count
