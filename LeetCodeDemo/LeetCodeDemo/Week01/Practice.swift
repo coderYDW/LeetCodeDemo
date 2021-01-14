@@ -76,5 +76,26 @@ class Practice {
         return res
     }
     
+    func sortColors(_ nums: inout [Int]) {
+        guard nums.count > 1 else {
+            return
+        }
+        //0 [0, p0)
+        //1 (p0, i)
+        //2 (p2, n) n = nums.count
+        var p0 = 0, i = 0, p2 = nums.count - 1
+        while i <= p2 {
+            if nums[i] == 0 {
+                nums.swapAt(i, p0)
+                p0 += 1
+                i += 1
+            } else if nums[i] == 2 {
+                nums.swapAt(i, p2)
+                p2 -= 1
+            } else {
+                i += 1
+            }
+        }
+    }
     
 }
