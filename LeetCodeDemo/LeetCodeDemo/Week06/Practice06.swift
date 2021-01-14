@@ -99,7 +99,7 @@ class Practice06 {
         }
         var dp = [Int](repeating: n + 1, count: n + 1)
         dp[0] = 0
-        for i in 0..<n + 1 {
+        for i in 1..<n + 1 {
             dp[i] = i
             var j = 1
             while i >= j * j {
@@ -176,7 +176,8 @@ class Practice06 {
             }
         }
         return maxSide * maxSide
-
+    }
+    
     func countSubstrings(_ s: String) -> Int {
         var t = Array("$#")
         let s = Array(s)
@@ -214,6 +215,23 @@ class Practice06 {
             }
         }
         return ans
+    }
+        
+    func numSquares10(_ n: Int) -> Int {
+        guard n > 1 else {
+            return n
+        }
+        var dp = [Int](repeating: n + 1, count: n + 1)
+        dp[0] = 0
+        for i in 1..<n {
+            dp[i] = i
+            var j = 1
+            while i >= j * j {
+                dp[i] = min(dp[i], dp[i - j * j] + 1)
+                j += 1
+            }
+        }
+        return dp[n]
     }
     
 }

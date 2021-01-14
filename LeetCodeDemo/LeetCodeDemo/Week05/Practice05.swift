@@ -146,4 +146,17 @@ class Practice02 {
         return res
     }
     
+    
+    func fib(_ n: Int) -> Int {
+        guard n >= 2 else {
+            return n
+        }
+        var p = 0, q = 1, r = p + q
+        for _ in 2..<n {
+            p = q
+            q = r
+            r = p + q
+        }
+        return r
+    }
 }
