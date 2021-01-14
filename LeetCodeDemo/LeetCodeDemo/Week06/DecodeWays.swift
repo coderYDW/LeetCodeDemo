@@ -8,25 +8,30 @@
 import Foundation
 
 class DecodeWays {
-//    func numDecodings(_ s: String) -> Int {
-//        if s.count <= 0 {
-//            return 0
-//        }
-//        let s = Array(s)
-//        if s[0] == "0" {
-//            return 0
-//        }
-//        let n = s.count
-//        var dp = [Int](repeating: 1, count: n + 1)
-//        dp[0] = 1
-//        dp[1] = s[0] == "0" ? 0 : 1
-//        for i in 1..<n + 1 {
-//
-//            if Int(s[i]) < 7 && (s[i - 1] == "1" || s[i - 1] == "2") {
-//                return 0
-//            }
-//
-//        }
-//        return dp[n]
-//    }
+    
+    func numDecodings(_ s: String) -> Int {
+        let s = Array(s)
+        var pre = 1, cur = 1
+        if s[0] == "0" { return 0 }
+        for i in 1..<s.count {
+            let b = cur
+            if s[i] == "0" {
+                if "12".contains(s[i - 1]) {
+                    cur = pre
+                } else {
+                    cur = 0
+                }
+            } else if s[i - 1] == "1" || s[i - 1] == "2" && "123456".contains(s[i]) {
+                cur += pre
+            }
+            pre = b
+        }
+        return cur
+    }
+    
+    
+    func test() {
+        print(numDecodings("1201234"))
+    }
+    
 }
