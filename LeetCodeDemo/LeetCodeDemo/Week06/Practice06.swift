@@ -234,4 +234,50 @@ class Practice06 {
         return dp[n]
     }
     
+    func countSubstrings20(_ s: String) -> Int {
+        //字符串拼装
+        var t = Array("$#")
+        for c in s {
+            t.append(c)
+            t.append("#")
+        }
+        let n = t.count
+        t.append("!")
+        var f = [Int](repeating: 0, count: n)
+        var iMax = 0, rMax = 0, ans = 0
+        for i in 1..<n {
+            f[i] = (i <= rMax) ? min(rMax - i + 1, f[2 * iMax - i]) : 1
+            while t[i + f[i]] ==  t[i - f[i]] {
+                f[i] += 1
+            }
+            if i + f[i] - 1 > rMax {
+                iMax = i
+                rMax = i + f[i] - 1
+            }
+            ans += (f[i] / 2)
+        }
+        return ans
+    }
+    
+    func numDecodings(_ s: String) -> Int {
+        let s = Array(s)
+        if s[0] == "0" {
+            return 0
+        }
+        var pre = 1, cur = 1
+        for i in 1..<s.count {
+            let temp = cur
+            if s[i] == "0" {
+                if "12".contains(s[i - 1]) {
+                    cur = pre
+                } else {
+                    cur = 0
+                }
+            } else if s[i - 1] == "1" || s[i - 1] == "2" && "123456".contains(s[i]) {
+                cur += pre
+            }
+            pre = temp
+        }
+        return cur
+    }
 }
