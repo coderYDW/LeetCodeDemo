@@ -177,4 +177,79 @@ class Practice04 {
         }
         return r * r == num
     }
+    
+    func ladderLength(_ beginWord: String, _ endWord: String, _ wordList: [String]) -> Int {
+        let wordSet = Set(wordList)
+        guard wordSet.contains(endWord) else {
+            return 0
+        }
+        var beginVisited: Set = [beginWord], endViseted: Set = [endWord], visited: Set = [beginWord]
+        var res = 1
+        while !beginVisited.isEmpty && !endViseted.isEmpty {
+            if beginVisited.count > endViseted.count {
+                swap(&beginVisited, &endViseted)
+            }
+            var nextLevelVisited = Set<String>()
+            for word in beginVisited {
+                if chageWordEveryOneLetter(word, endViseted, &nextLevelVisited, wordSet, &visited) {
+                    return res + 1
+                }
+            }
+            beginVisited = nextLevelVisited;
+            res += 1
+        }
+        return 0
+    }
+    
+    func chageWordEveryOneLetter(_ word: String, _ endVisited: Set<String>, _ nextLevelVisited: inout Set<String>, _ wordSet: Set<String>, _ visited: inout Set<String>) -> Bool {
+        var chars = Array(word)
+        for i in 0..<chars.count {
+            let originChar = chars[i]
+            for c in "qwertyuiopasdfghjklzxcvbnm" {
+                if originChar == c {
+                    continue
+                }
+                chars[i] = c
+                let temp = String(chars)
+                if endVisited.contains(temp) {
+                    return true
+                }
+                if wordSet.contains(temp) && !visited.contains(temp) {
+                    nextLevelVisited.insert(temp)
+                    visited.insert(temp)
+                }
+                chars[i] = originChar;
+            }
+        }
+        return false
+    }
+    
+    
+    func numIslands(_ grid: [[Character]]) -> Int {
+        guard grid.count > 0, grid[0].count > 0 else {
+            return 0
+        }
+        var temp = grid, res = 0
+        for i in 0..<temp.count {
+            for j in 0..<temp[0].count {
+                if temp[i][j] == "1" {
+                    res += 1
+                }
+                dfs(i, j, grid.count, grid[0].count, &temp)
+            }
+        }
+        return res
+    }
+    
+    func dfs(_ row: Int, _ col: Int, _ m: Int, _ n: Int, _ temp: inout [[Character]]) {
+        guard row >= 0, row < m, col >= 0, col < n else {
+            return
+        }
+        temp[row][col] = "0"
+        dfs(row - 1, col, m, n, &temp)
+        dfs(row + 1, col, m, n, &temp)
+        dfs(row, col - 1, m, n, &temp)
+        dfs(row, col + 1, m, n, &temp)
+    }
+    
 }
