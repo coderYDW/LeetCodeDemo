@@ -80,6 +80,7 @@
 		E4EBEC2A25AB2B28007D26FE /* DecodeWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2925AB2B28007D26FE /* DecodeWays.swift */; };
 		E4EBEC2D25AB305F007D26FE /* MaxSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2C25AB305F007D26FE /* MaxSquare.swift */; };
 		E4EBEC3025AC9E46007D26FE /* SortColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEC2F25AC9E46007D26FE /* SortColor.swift */; };
+		E4F012C525B3170E0038908D /* TrieTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F012C425B3170E0038908D /* TrieTree.swift */; };
 		E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */; };
 		E4FACDAF258C4B42009EB46F /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDAE258C4B42009EB46F /* InvertTree.swift */; };
 		E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FACDB1258C63CC009EB46F /* IsValidBST.swift */; };
@@ -173,6 +174,7 @@
 		E4EBEC2925AB2B28007D26FE /* DecodeWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeWays.swift; sourceTree = "<group>"; };
 		E4EBEC2C25AB305F007D26FE /* MaxSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSquare.swift; sourceTree = "<group>"; };
 		E4EBEC2F25AC9E46007D26FE /* SortColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortColor.swift; sourceTree = "<group>"; };
+		E4F012C425B3170E0038908D /* TrieTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieTree.swift; sourceTree = "<group>"; };
 		E4FACDA62588E23F009EB46F /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		E4FACDAE258C4B42009EB46F /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		E4FACDB1258C63CC009EB46F /* IsValidBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBST.swift; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				E41114D825937D39007E9A3A /* Week04 */,
 				E4EBEBE4259E0A55007D26FE /* Week05 */,
 				E4EBEBFF25A20BEB007D26FE /* Week06 */,
+				E4F012C325B316FC0038908D /* Week07 */,
 			);
 			path = LeetCodeDemo;
 			sourceTree = "<group>";
@@ -287,6 +290,14 @@
 				E4EBEC2F25AC9E46007D26FE /* SortColor.swift */,
 			);
 			path = Week01;
+			sourceTree = "<group>";
+		};
+		E4F012C325B316FC0038908D /* Week07 */ = {
+			isa = PBXGroup;
+			children = (
+				E4F012C425B3170E0038908D /* TrieTree.swift */,
+			);
+			path = Week07;
 			sourceTree = "<group>";
 		};
 		E4FACDA92588E984009EB46F /* Week02 */ = {
@@ -422,6 +433,7 @@
 				E4EBEBF725A0B28E007D26FE /* UniquePathsII.swift in Sources */,
 				18BBA02C25A4875F00CBE9ED /* CoinChange.swift in Sources */,
 				1803F6562591D9DD00CD5C03 /* MajorityElement.swift in Sources */,
+				E4F012C525B3170E0038908D /* TrieTree.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,
 				E4EBEBEA259F752A007D26FE /* FourSum.swift in Sources */,
