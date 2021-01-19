@@ -54,4 +54,31 @@ class NQueens {
         }
         return board
     }
+    
+    func solveNQueens10(_ n: Int) -> [[String]] {
+        var res = [[String]]()
+        var queens = [Int](repeating: -1, count: n)
+        var colSet = Set<Int>(), diaSet1 = Set<Int>(), diaSet2 = Set<Int>()
+        backtrack(0, n, &queens, &colSet, &diaSet1, &diaSet2, &res)
+        return res
+    }
+    
+    func backtrack(_ row: Int, _ n: Int, _ queens: inout [Int], _ colSet: inout Set<Int>, _ diaSet1: inout Set<Int>, _ diaSet2: inout Set<Int>, _ res: inout [[String]]) {
+        if row == n {
+            res.append(generateBoard(queens, n))
+            return
+        }
+        for i in 0..<n {
+            if colSet.contains(i) { continue }
+            let dia1 = row - i
+            if diaSet1.contains(dia1) { continue }
+            let dia2 = row + i
+            if diaSet2.contains(dia2) { continue }
+            queens[row] = i
+            colSet.insert(i); diaSet1.insert(dia1); diaSet2.insert(dia2)
+            backtrack(row + 1, n, &queens, &colSet, &diaSet1, &diaSet2, &res)
+            queens[row] = -1
+            colSet.remove(i); diaSet2.remove(dia2); diaSet1.remove(dia1)
+        }
+    }
 }
