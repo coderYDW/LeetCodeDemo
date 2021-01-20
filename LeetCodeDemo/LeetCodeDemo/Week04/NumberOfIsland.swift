@@ -63,4 +63,32 @@ class NumberOfIsland {
         dfs(row, col - 1, rowCount, colCount, &temp)
     }
     
+    func numIslands20(_ grid: [[Character]]) -> Int {
+        guard grid.count > 0, grid[0].count > 0 else {
+            return 0
+        }
+        var temp = grid, res = 0
+        let m = grid.count, n = grid[0].count
+        for i in 0..<m {
+            for j in 0..<n {
+                if temp[i][j] == "1" {
+                    res += 1
+                    backtrack(i, j, m, n, &temp)
+                }
+            }
+        }
+        return res
+    }
+    
+    func backtrack(_ i: Int, _ j: Int, _ m: Int, _ n: Int, _ temp: inout [[Character]]) {
+        if i < 0 || i >= m || j < 0 || j >= n || temp[i][j] == "0" {
+            return
+        }
+        temp[i][j] = "0"
+        let di = [0, 1, 0, -1], dj = [1, 0, -1, 0]
+        for k in 0..<4 {
+            backtrack(i + di[k], j + dj[k], m, n, &temp)
+        }
+    }
+    
 }
