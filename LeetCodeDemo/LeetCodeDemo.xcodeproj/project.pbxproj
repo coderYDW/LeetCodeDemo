@@ -14,6 +14,7 @@
 		1803F6562591D9DD00CD5C03 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6552591D9DD00CD5C03 /* MajorityElement.swift */; };
 		1803F6592591E41F00CD5C03 /* LetterOfPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */; };
 		1803F65C2592DD2D00CD5C03 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F65B2592DD2D00CD5C03 /* NQueens.swift */; };
+		181302EB25B95CAD00140E61 /* ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181302EA25B95CAD00140E61 /* ReverseBits.swift */; };
 		18BBA02825A2F5E600CBE9ED /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */; };
 		18BBA02C25A4875F00CBE9ED /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA02B25A4875F00CBE9ED /* CoinChange.swift */; };
 		18BBA03125A5738300CBE9ED /* Practice06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03025A5738300CBE9ED /* Practice06.swift */; };
@@ -110,6 +111,7 @@
 		1803F6552591D9DD00CD5C03 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterOfPhoneNumber.swift; sourceTree = "<group>"; };
 		1803F65B2592DD2D00CD5C03 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
+		181302EA25B95CAD00140E61 /* ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBits.swift; sourceTree = "<group>"; };
 		18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		18BBA02B25A4875F00CBE9ED /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		18BBA03025A5738300CBE9ED /* Practice06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice06.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				E481DA2125B954D30079E94E /* NumberOfOneBit.swift */,
+				181302EA25B95CAD00140E61 /* ReverseBits.swift */,
 			);
 			path = Week08;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				18BBA02825A2F5E600CBE9ED /* ThreeSum.swift in Sources */,
 				18BBA03125A5738300CBE9ED /* Practice06.swift in Sources */,
 				E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */,
+				181302EB25B95CAD00140E61 /* ReverseBits.swift in Sources */,
 				E40FD0C125ADF14E00DAEF45 /* PalindromicSubstrings.swift in Sources */,
 				E4EBEBCE25974278007D26FE /* SearchInRotatedSortedArray.swift in Sources */,
 				E40EE18F25825BEE003E4885 /* MaxArea.swift in Sources */,

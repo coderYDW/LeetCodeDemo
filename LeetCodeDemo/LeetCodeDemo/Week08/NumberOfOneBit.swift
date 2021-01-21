@@ -8,6 +8,7 @@
 import Foundation
 
 class NumberOfOneBit {
+    //位一的个数
     func hammingWeight(_ n: Int) -> Int {
         var res = 0, n = n
         while n != 0 {
