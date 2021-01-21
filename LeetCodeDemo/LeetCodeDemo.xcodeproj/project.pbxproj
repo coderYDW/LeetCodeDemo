@@ -40,6 +40,7 @@
 		E41114DA25937D71007E9A3A /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114D925937D71007E9A3A /* MaxProfit.swift */; };
 		E41114DE259389F9007E9A3A /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114DD259389F9007E9A3A /* ClimbStairs.swift */; };
 		E41114E325947C61007E9A3A /* AssignCookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114E225947C61007E9A3A /* AssignCookies.swift */; };
+		E4238E7A25B871600057462D /* SolveSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4238E7725B86EFA0057462D /* SolveSudoku.swift */; };
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
 		E42511AB257E7EE000BA6EE3 /* Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511AA257E7EE000BA6EE3 /* Intersect.swift */; };
@@ -133,6 +134,7 @@
 		E41114D925937D71007E9A3A /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		E41114DD259389F9007E9A3A /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
 		E41114E225947C61007E9A3A /* AssignCookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCookies.swift; sourceTree = "<group>"; };
+		E4238E7725B86EFA0057462D /* SolveSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveSudoku.swift; sourceTree = "<group>"; };
 		E425119A257E7B7000BA6EE3 /* LeetCodeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E42511A5257E7C2200BA6EE3 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -214,6 +216,13 @@
 			path = Week04;
 			sourceTree = "<group>";
 		};
+		E4238E7325B86DCF0057462D /* Week08 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Week08;
+			sourceTree = "<group>";
+		};
 		E4251191257E7B7000BA6EE3 = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +251,7 @@
 				E4EBEBE4259E0A55007D26FE /* Week05 */,
 				E4EBEBFF25A20BEB007D26FE /* Week06 */,
 				E4F012C325B316FC0038908D /* Week07 */,
+				E4238E7325B86DCF0057462D /* Week08 */,
 			);
 			path = LeetCodeDemo;
 			sourceTree = "<group>";
@@ -296,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				E4F012C425B3170E0038908D /* TrieTree.swift */,
+				E4238E7725B86EFA0057462D /* SolveSudoku.swift */,
 			);
 			path = Week07;
 			sourceTree = "<group>";
@@ -376,7 +387,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					E4251199257E7B7000BA6EE3 = {
 						CreatedOnToolsVersion = 12.0;
@@ -416,6 +427,7 @@
 				E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */,
 				E40EE1982584B7DF003E4885 /* ValidAnagram.swift in Sources */,
 				E447E7ED258CDBB900E89845 /* MyCircularDeque.swift in Sources */,
+				E4238E7A25B871600057462D /* SolveSudoku.swift in Sources */,
 				E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */,
 				1803F6592591E41F00CD5C03 /* LetterOfPhoneNumber.swift in Sources */,
 				E4EBEBFA25A1626B007D26FE /* MinPathSum.swift in Sources */,
@@ -608,6 +620,7 @@
 		E42511A2257E7B7000BA6EE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYH2KESH9R;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -619,6 +632,7 @@
 		E42511A3257E7B7000BA6EE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VYH2KESH9R;
 				ENABLE_HARDENED_RUNTIME = YES;
