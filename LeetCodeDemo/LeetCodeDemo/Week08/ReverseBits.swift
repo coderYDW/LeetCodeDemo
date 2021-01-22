@@ -18,4 +18,15 @@ class ReverseBits {
         }
         return Int(res)
     }
+    
+    //思路更清晰
+    func reverseBits10(_ n: Int) -> Int {
+        var n = UInt32(n), res = UInt32(0)
+        for _ in 0..<32 {
+            res <<= 1
+            res |= n & 1
+            n >>= 1
+        }
+        return Int(res)
+    }
 }
