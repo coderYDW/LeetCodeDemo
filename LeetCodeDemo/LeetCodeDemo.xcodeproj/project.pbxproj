@@ -232,6 +232,7 @@
 				E481DA2125B954D30079E94E /* NumberOfOneBit.swift */,
 				181302EA25B95CAD00140E61 /* ReverseBits.swift */,
 				E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */,
+				1803F65B2592DD2D00CD5C03 /* NQueens.swift */,
 			);
 			path = Week08;
 			sourceTree = "<group>";
@@ -370,7 +371,6 @@
 				1803F65225909B0500CD5C03 /* Subset.swift */,
 				1803F6552591D9DD00CD5C03 /* MajorityElement.swift */,
 				1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */,
-				1803F65B2592DD2D00CD5C03 /* NQueens.swift */,
 			);
 			path = Week03;
 			sourceTree = "<group>";
