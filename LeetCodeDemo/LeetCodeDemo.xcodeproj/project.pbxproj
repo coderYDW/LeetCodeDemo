@@ -233,6 +233,7 @@
 				181302EA25B95CAD00140E61 /* ReverseBits.swift */,
 				E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */,
 				1803F65B2592DD2D00CD5C03 /* NQueens.swift */,
+				E40EE1972584B7DF003E4885 /* ValidAnagram.swift */,
 			);
 			path = Week08;
 			sourceTree = "<group>";
@@ -340,7 +341,6 @@
 				E40EE18E25825BEE003E4885 /* MaxArea.swift */,
 				E40EE19125827139003E4885 /* FizzBuzz.swift */,
 				E40EE1942583AD06003E4885 /* AddDigits.swift */,
-				E40EE1972584B7DF003E4885 /* ValidAnagram.swift */,
 				E40EE19A2584CEAE003E4885 /* GroupAnagrams.swift */,
 				E40EE19D25851126003E4885 /* BinaryTree.swift */,
 				E40EE1A02585E671003E4885 /* UglyNumber.swift */,

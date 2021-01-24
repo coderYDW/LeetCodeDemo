@@ -26,27 +26,17 @@ class ValidAnagram {
             return false
         }
         var arr = [Int](repeating: 0, count: 26)
-        for c in s {
-            let i = numFromCharacter(c) - numFromCharacter("a")
-            arr[i] += 1
+        let aCharUnicodeScalar = Int("a".unicodeScalars.first!.value)
+        for c in s.unicodeScalars {
+            arr[Int(c.value) - aCharUnicodeScalar] += 1
         }
-        for c in t {
-            let i = numFromCharacter(c) - numFromCharacter("a")
-            arr[i] -= 1
-            if arr[i] < 0 {
-                return false
-            }
+        for c in t.unicodeScalars {
+            arr[Int(c.value) - aCharUnicodeScalar] -= 1
+        }
+        guard arr.first( where: {$0 != 0} ) == nil else {
+            return false
         }
         return true
-    }
-    
-    func numFromCharacter(_ char: Character) -> Int {
-        let str = String(char)
-        var number: Int = 0
-        for code in str.unicodeScalars {
-            number = Int(code.value)
-        }
-        return number
     }
     
     //字典方式
@@ -56,10 +46,7 @@ class ValidAnagram {
         }
         var hashMap = [Character: Int]()
         for c in s {
-            if hashMap[c] == nil {
-                hashMap[c] = 0
-            }
-            hashMap[c]! += 1
+            hashMap[c] = hashMap[c] ?? 0 + 1
         }
         for c in t {
             if hashMap[c] == nil {
@@ -72,4 +59,6 @@ class ValidAnagram {
         }
         return true
     }
+    
+    
 }
