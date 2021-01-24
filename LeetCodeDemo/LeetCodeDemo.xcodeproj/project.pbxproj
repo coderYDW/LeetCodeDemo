@@ -55,6 +55,7 @@
 		E481DA2225B954D30079E94E /* NumberOfOneBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481DA2125B954D30079E94E /* NumberOfOneBit.swift */; };
 		E481DA2625B9B61D0079E94E /* PowerOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */; };
 		E4BB406225BD65D6008E963D /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406125BD65D6008E963D /* RelativeSortArray.swift */; };
+		E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406425BD74A9008E963D /* LeaderBoard.swift */; };
 		E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */; };
 		E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75E258F7CF400225CB6 /* Codec.swift */; };
 		E4EBEBC22596CB99007D26FE /* RobotSim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC12596CB99007D26FE /* RobotSim.swift */; };
@@ -156,6 +157,7 @@
 		E481DA2125B954D30079E94E /* NumberOfOneBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfOneBit.swift; sourceTree = "<group>"; };
 		E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfTwo.swift; sourceTree = "<group>"; };
 		E4BB406125BD65D6008E963D /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
+		E4BB406425BD74A9008E963D /* LeaderBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoard.swift; sourceTree = "<group>"; };
 		E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermuteUnique.swift; sourceTree = "<group>"; };
 		E4BBB75E258F7CF400225CB6 /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
 		E4EBEBC12596CB99007D26FE /* RobotSim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSim.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				1803F65B2592DD2D00CD5C03 /* NQueens.swift */,
 				E40EE1972584B7DF003E4885 /* ValidAnagram.swift */,
 				E4BB406125BD65D6008E963D /* RelativeSortArray.swift */,
+				E4BB406425BD74A9008E963D /* LeaderBoard.swift */,
 			);
 			path = Week08;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,
 				E4BB406225BD65D6008E963D /* RelativeSortArray.swift in Sources */,
+				E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */,
 				E4EBEBEA259F752A007D26FE /* FourSum.swift in Sources */,
 				E4EBEBFD25A16DAF007D26FE /* Triangle.swift in Sources */,
 				E4EBEC2A25AB2B28007D26FE /* DecodeWays.swift in Sources */,
