@@ -56,6 +56,7 @@
 		E481DA2625B9B61D0079E94E /* PowerOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */; };
 		E4BB406225BD65D6008E963D /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406125BD65D6008E963D /* RelativeSortArray.swift */; };
 		E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406425BD74A9008E963D /* LeaderBoard.swift */; };
+		E4BB406825BDC3CC008E963D /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406725BDC3CC008E963D /* CountingBits.swift */; };
 		E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */; };
 		E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75E258F7CF400225CB6 /* Codec.swift */; };
 		E4EBEBC22596CB99007D26FE /* RobotSim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC12596CB99007D26FE /* RobotSim.swift */; };
@@ -158,6 +159,7 @@
 		E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfTwo.swift; sourceTree = "<group>"; };
 		E4BB406125BD65D6008E963D /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		E4BB406425BD74A9008E963D /* LeaderBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoard.swift; sourceTree = "<group>"; };
+		E4BB406725BDC3CC008E963D /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
 		E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermuteUnique.swift; sourceTree = "<group>"; };
 		E4BBB75E258F7CF400225CB6 /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
 		E4EBEBC12596CB99007D26FE /* RobotSim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSim.swift; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				E40EE1972584B7DF003E4885 /* ValidAnagram.swift */,
 				E4BB406125BD65D6008E963D /* RelativeSortArray.swift */,
 				E4BB406425BD74A9008E963D /* LeaderBoard.swift */,
+				E4BB406725BDC3CC008E963D /* CountingBits.swift */,
 			);
 			path = Week08;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				1803F65325909B0500CD5C03 /* Subset.swift in Sources */,
 				18BBA02825A2F5E600CBE9ED /* ThreeSum.swift in Sources */,
 				18BBA03125A5738300CBE9ED /* Practice06.swift in Sources */,
+				E4BB406825BDC3CC008E963D /* CountingBits.swift in Sources */,
 				E40EE18B2581A0B9003E4885 /* LemonnadeChange.swift in Sources */,
 				181302EB25B95CAD00140E61 /* ReverseBits.swift in Sources */,
 				E40FD0C125ADF14E00DAEF45 /* PalindromicSubstrings.swift in Sources */,
