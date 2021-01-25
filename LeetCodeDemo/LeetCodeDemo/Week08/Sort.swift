@@ -10,8 +10,7 @@ import Foundation
 class Sort {
     
     /*
-     插入排序
-     步骤如下：
+     插入排序步骤如下：
      1. 从第一个元素开始，该元素可以认为已经被排序
      2. 取出下一个元素，在已经排序的元素序列中从后向前扫描
      3. 如果该元素（已排序）大于新元素，将该元素移到下一位置
@@ -31,12 +30,27 @@ class Sort {
         }
     }
     
-    
-    
+    /*
+     选择排序步骤如下：
+     1. 遍历数组，找到最小的元素，将其置于数组起始位置。
+     2. 从上次最小元素存放的后一个元素开始遍历至数组尾，将最小的元素置于开始处。
+     3. 重复上述过程，直到元素排序完毕。
+     */
+    func selectionSort(_ arr: inout [Int]) {
+        for i in 0..<arr.count {
+            var min = i
+            for j in i + 1..<arr.count {
+                if arr[j] < arr[min] {
+                    min = j
+                }
+            }
+            arr.swapAt(i, min)
+        }
+    }
     
     func test() {
         var arr = [15,2,1,6,7,9,34,5]
-        insertSort(&arr)
+        selectionSort(&arr)
         print(arr)
     }
     
