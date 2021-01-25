@@ -64,10 +64,64 @@ class Sort {
         }
     }
     
+    
+    /*
+     归并排序:
+     1. 申请空间，创建两个数组，长度分别为两个有序数组的长度
+     2. 设定两个指针，最初位置分别为两个已经排序序列的起始位置
+     3. 比较两个指针所指向的元素，选择相对小的元素放入到合并空间，并移动指针到下一位置
+     4. 重复步骤3直到某一指针达到序列尾
+     5. 将另一序列剩下的所有元素直接复制到合并序列尾
+     */
+    func mergeSort(_ arr: inout [Int]) {
+        mergeSortHelper(&arr, 0, arr.count - 1)
+    }
+    
+    func mergeSortHelper(_ arr: inout [Int], _ left: Int, _ right: Int) {
+        if left >= right {
+            return
+        }
+        let mid = (left + right) >> 1
+        mergeSortHelper(&arr, left, mid)
+        mergeSortHelper(&arr, mid + 1, right)
+        merge(&arr, left, mid, right)
+    }
+    
+    func merge(_ arr: inout [Int], _ left: Int, _ mid: Int, _ right: Int) {
+        var temp = [Int]()
+        var i = left, j = mid + 1
+        while i <= mid && j <= right {
+            if arr[i] <= arr[j] {
+                temp.append(arr[i])
+                i += 1
+            } else {
+                temp.append(arr[j])
+                j += 1
+            }
+        }
+        while i <= mid {
+            temp.append(arr[i])
+            i += 1
+        }
+        while j <= right {
+            temp.append(arr[j])
+            j += 1
+        }
+        for p in 0..<temp.count {
+            arr[left + p] = temp[p]
+        }
+    }
+    
+    
     func test() {
         var arr = [15,2,1,6,7,9,34,5]
-        bubbleSort(&arr)
+        mergeSort(&arr)
         print(arr)
     }
+    
+    
+    
+    
+    
     
 }
