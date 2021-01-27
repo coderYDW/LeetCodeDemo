@@ -32,7 +32,7 @@ class UniquePaths {
         var cur = [Int](repeating: 1, count: n)
         for _ in 1..<m {
             for j in 1..<n {
-                cur[j] = cur[j - 1]
+                cur[j] += cur[j - 1]
             }
         }
         return cur[n - 1]
