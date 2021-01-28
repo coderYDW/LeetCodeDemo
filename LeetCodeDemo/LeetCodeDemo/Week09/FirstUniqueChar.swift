@@ -7,6 +7,11 @@
 
 import Foundation
 
+/*
+ 字符串中的第一个唯一字符
+ 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，则返回 -1。
+ */
+
 class FirstUniqueChar {
     
     func firstUniqChar(_ s: String) -> Int {
@@ -35,9 +40,49 @@ class FirstUniqueChar {
         }
         return first == s.count ? -1 : first
     }
-    //
-//    func firstUniqChar20(_ s: String) -> Int {
-//
-//    }
     
+    
+    func firstUniqChar30(_ s: String) -> Int {
+        var sa = [Int](repeating: 0, count: 26)
+        for c in s.unicodeScalars {
+            sa[Int(c.value) - 97] += 1
+        }
+        var i = 0
+        for c in s.unicodeScalars {
+            if sa[Int(c.value) - 97] == 1 {
+                return i
+            }
+            i += 1
+        }
+        return -1
+    }
+    
+    
+    //队列的方式
+    func firstUniqChar20(_ s: String) -> Int {
+        var position = [Character: Int]()
+        var queue = [Pair]()
+        for (i, v) in s.enumerated() {
+            if position[v] == nil {
+                position[v] = i
+                queue.append(Pair(v, i))
+            } else {
+                position[v] = -1
+                while !queue.isEmpty && position[queue.first!.char] == -1 {
+                    queue.removeFirst()
+                }
+            }
+        }
+        return queue.isEmpty ? -1 : queue.first!.pos
+    }
+    
+}
+
+class Pair {
+    public var char: Character
+    public var pos: Int
+    public init(_ char: Character,_ pos: Int) {
+        self.char = char
+        self.pos = pos
+    }
 }
