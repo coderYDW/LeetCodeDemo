@@ -174,21 +174,25 @@ class Sort {
         var i = i
         while true {
             var maxPos = i
-            let left = i * 2 + 1
-            if left <= n && arr[left] > arr[maxPos] {
+            //左右判断是否大于根
+            let left = 2 * i + 1
+            if left <= n && arr[maxPos] < arr[left] {
                 maxPos = left
             }
-            let right = i * 2 + 2
-            if right <= n && arr[right] > arr[maxPos] {
+            let right = 2 * i + 2
+            if right <= n && arr[maxPos] < arr[right] {
                 maxPos = right
             }
+            //如果左右小于根,结束
             if maxPos == i {
                 break
             }
-            arr.swapAt(maxPos, i)
+            arr.swapAt(i, maxPos)
             i = maxPos
         }
     }
+    
+    
     
     
     func test() {
