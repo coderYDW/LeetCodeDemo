@@ -119,17 +119,13 @@ class Sort {
      2. 重新排序数列，所有元素比基准值小的摆放在基准前面，所有元素比基准值大的摆在基准的后面（相同的数可以到任一边）。在这个分区退出之后，该基准就处于数列的中间位置。这个称为分区（partition）操作。
      3. 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
      */
-    func quickSort(_ arr: inout [Int]) {
-        quickSortHelper(&arr, 0, arr.count - 1)
-    }
-    
-    func quickSortHelper(_ arr: inout [Int], _ left: Int, _ right: Int) {
+    func quickSort(_ arr: inout [Int], _ left: Int, _ right: Int) {
         if left >= right {
             return
         }
         let pivot = partition(&arr, left, right)
-        quickSortHelper(&arr, left, pivot - 1)
-        quickSortHelper(&arr, pivot + 1, right)
+        quickSort(&arr, left, pivot - 1)
+        quickSort(&arr, pivot + 1, right)
     }
     
     func partition(_ arr: inout [Int], _ left: Int, _ right: Int) -> Int {
@@ -197,7 +193,8 @@ class Sort {
     
     func test() {
         var arr = [15,2,1,6,7,9,34,5]
-        heapSort(&arr)
+        //heapSort(&arr)
+        quickSort(&arr, 0, arr.count - 1)
         print(arr)
     }
     
