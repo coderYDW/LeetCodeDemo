@@ -19,6 +19,7 @@
 		189DFF4425C2BA9600BCE07A /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DFF4325C2BA9600BCE07A /* LengthOfLastWord.swift */; };
 		189DFF4725C2D9C100BCE07A /* JewelsAndStones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DFF4625C2D9C100BCE07A /* JewelsAndStones.swift */; };
 		189DFF4A25C3D3A200BCE07A /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DFF4925C3D3A200BCE07A /* LongestCommonPrefix.swift */; };
+		189DFF4D25C3FDA000BCE07A /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DFF4C25C3FDA000BCE07A /* ReverseString.swift */; };
 		18BBA02825A2F5E600CBE9ED /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */; };
 		18BBA02C25A4875F00CBE9ED /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA02B25A4875F00CBE9ED /* CoinChange.swift */; };
 		18BBA03125A5738300CBE9ED /* Practice06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03025A5738300CBE9ED /* Practice06.swift */; };
@@ -129,6 +130,7 @@
 		189DFF4325C2BA9600BCE07A /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 		189DFF4625C2D9C100BCE07A /* JewelsAndStones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewelsAndStones.swift; sourceTree = "<group>"; };
 		189DFF4925C3D3A200BCE07A /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		189DFF4C25C3FDA000BCE07A /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 		18BBA02725A2F5E600CBE9ED /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		18BBA02B25A4875F00CBE9ED /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
 		18BBA03025A5738300CBE9ED /* Practice06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice06.swift; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 				189DFF4325C2BA9600BCE07A /* LengthOfLastWord.swift */,
 				189DFF4625C2D9C100BCE07A /* JewelsAndStones.swift */,
 				189DFF4925C3D3A200BCE07A /* LongestCommonPrefix.swift */,
+				189DFF4C25C3FDA000BCE07A /* ReverseString.swift */,
 			);
 			path = Week09;
 			sourceTree = "<group>";
@@ -538,6 +541,7 @@
 				18D8700C2599CF980056FB8F /* ValidPerfectSquare.swift in Sources */,
 				E41114DA25937D71007E9A3A /* MaxProfit.swift in Sources */,
 				E4EBEBED259F77DE007D26FE /* LongestCommonSubsequence.swift in Sources */,
+				189DFF4D25C3FDA000BCE07A /* ReverseString.swift in Sources */,
 				E4EBEC2D25AB305F007D26FE /* MaxSquare.swift in Sources */,
 				E481DA1F25B94F3A0079E94E /* ValidSudoku.swift in Sources */,
 				E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */,
