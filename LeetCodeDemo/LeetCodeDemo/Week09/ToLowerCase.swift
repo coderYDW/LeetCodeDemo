@@ -12,6 +12,7 @@ import Foundation
  */
 
 class ToLowerCase {
+    
     func toLowerCase(_ str: String) -> String {
         guard str.count > 0 else {
             return str
@@ -32,4 +33,13 @@ class ToLowerCase {
     func toLowerCase20(_ str: String) -> String {
         return str.lowercased()
     }
+    
+    func toLowerCase30(_ str: String) -> String {
+        var cArr = [Character]()
+        for c in str.unicodeScalars {
+            cArr.append(Character(UnicodeScalar(c.value | 32)!))
+        }
+        return String(cArr)
+    }
+    
 }
