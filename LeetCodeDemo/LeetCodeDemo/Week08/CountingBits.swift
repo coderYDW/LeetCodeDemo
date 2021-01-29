@@ -26,14 +26,6 @@ class CountingBits {
     }
     
     func countBits20(_ num: Int) -> [Int] {
-        var dp = [Int](repeating: 0, count: num + 1)
-        for i in 1..<num + 1 {
-            dp[i] = dp[i >> 1] + i & 1
-        }
-        return dp
-    }
-    
-    func countBits30(_ num: Int) -> [Int] {
         var ans = [Int](repeating: 0, count: num + 1)
         var i = 0, b = 1
         // [0, b) is calculated
