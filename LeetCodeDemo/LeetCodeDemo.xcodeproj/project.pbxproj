@@ -265,7 +265,6 @@
 				181302EA25B95CAD00140E61 /* ReverseBits.swift */,
 				E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */,
 				1803F65B2592DD2D00CD5C03 /* NQueens.swift */,
-				E40EE1972584B7DF003E4885 /* ValidAnagram.swift */,
 				E4BB406125BD65D6008E963D /* RelativeSortArray.swift */,
 				E4BB406425BD74A9008E963D /* LeaderBoard.swift */,
 				E4BB406725BDC3CC008E963D /* CountingBits.swift */,
@@ -322,6 +321,7 @@
 				E41F374625C557DC00C11178 /* ReverseWordInString.swift */,
 				E41F374925C55A8100C11178 /* ReverseWordInStringIII.swift */,
 				E41F374C25C55F2400C11178 /* ReverseOnlyLetters.swift */,
+				E40EE1972584B7DF003E4885 /* ValidAnagram.swift */,
 			);
 			path = Week09;
 			sourceTree = "<group>";
