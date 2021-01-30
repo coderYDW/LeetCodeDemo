@@ -50,6 +50,8 @@
 		E41114E325947C61007E9A3A /* AssignCookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41114E225947C61007E9A3A /* AssignCookies.swift */; };
 		E41F374425C54BF000C11178 /* ReverseStringII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F374325C54BF000C11178 /* ReverseStringII.swift */; };
 		E41F374725C557DC00C11178 /* ReverseWordInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F374625C557DC00C11178 /* ReverseWordInString.swift */; };
+		E41F374A25C55A8100C11178 /* ReverseWordInStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F374925C55A8100C11178 /* ReverseWordInStringIII.swift */; };
+		E41F374D25C55F2400C11178 /* ReverseOnlyLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F374C25C55F2400C11178 /* ReverseOnlyLetters.swift */; };
 		E4238E7A25B871600057462D /* SolveSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4238E7725B86EFA0057462D /* SolveSudoku.swift */; };
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
@@ -163,6 +165,8 @@
 		E41114E225947C61007E9A3A /* AssignCookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignCookies.swift; sourceTree = "<group>"; };
 		E41F374325C54BF000C11178 /* ReverseStringII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringII.swift; sourceTree = "<group>"; };
 		E41F374625C557DC00C11178 /* ReverseWordInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordInString.swift; sourceTree = "<group>"; };
+		E41F374925C55A8100C11178 /* ReverseWordInStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordInStringIII.swift; sourceTree = "<group>"; };
+		E41F374C25C55F2400C11178 /* ReverseOnlyLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseOnlyLetters.swift; sourceTree = "<group>"; };
 		E4238E7725B86EFA0057462D /* SolveSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveSudoku.swift; sourceTree = "<group>"; };
 		E425119A257E7B7000BA6EE3 /* LeetCodeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -316,6 +320,8 @@
 				189DFF4C25C3FDA000BCE07A /* ReverseString.swift */,
 				E41F374325C54BF000C11178 /* ReverseStringII.swift */,
 				E41F374625C557DC00C11178 /* ReverseWordInString.swift */,
+				E41F374925C55A8100C11178 /* ReverseWordInStringIII.swift */,
+				E41F374C25C55F2400C11178 /* ReverseOnlyLetters.swift */,
 			);
 			path = Week09;
 			sourceTree = "<group>";
@@ -550,7 +556,9 @@
 				E41114DA25937D71007E9A3A /* MaxProfit.swift in Sources */,
 				E4EBEBED259F77DE007D26FE /* LongestCommonSubsequence.swift in Sources */,
 				189DFF4D25C3FDA000BCE07A /* ReverseString.swift in Sources */,
+				E41F374D25C55F2400C11178 /* ReverseOnlyLetters.swift in Sources */,
 				E4EBEC2D25AB305F007D26FE /* MaxSquare.swift in Sources */,
+				E41F374A25C55A8100C11178 /* ReverseWordInStringIII.swift in Sources */,
 				E481DA1F25B94F3A0079E94E /* ValidSudoku.swift in Sources */,
 				E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */,
 				E4EBEBD12597477E007D26FE /* Search2DMatrix.swift in Sources */,
