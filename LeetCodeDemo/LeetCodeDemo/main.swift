@@ -41,5 +41,6 @@ print("Hello, World!")
 //let b = a[2...]
 //print(b)
 
+
 let addd = FindAllAnagramsInAString()
 addd.test()
