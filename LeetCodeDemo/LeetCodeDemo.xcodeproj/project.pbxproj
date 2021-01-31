@@ -329,6 +329,7 @@
 				E40EE19A2584CEAE003E4885 /* GroupAnagrams.swift */,
 				E41F374F25C584F000C11178 /* FindAllAnagramsInAString.swift */,
 				18543CC625C64162007E3865 /* ValidPalindrome.swift */,
+				E4EBEC2925AB2B28007D26FE /* DecodeWays.swift */,
 			);
 			path = Week09;
 			sourceTree = "<group>";
@@ -363,7 +364,6 @@
 				E407053E25C1A6E90017B416 /* Stock.swift */,
 				E4EBEC2325AA07F8007D26FE /* StockIII.swift */,
 				E4EBEC2625AAFB85007D26FE /* PerfectSquare.swift */,
-				E4EBEC2925AB2B28007D26FE /* DecodeWays.swift */,
 				E4EBEC2C25AB305F007D26FE /* MaxSquare.swift */,
 				E40FD0C025ADF14E00DAEF45 /* PalindromicSubstrings.swift */,
 			);
