@@ -52,6 +52,7 @@
 		E41F374725C557DC00C11178 /* ReverseWordInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F374625C557DC00C11178 /* ReverseWordInString.swift */; };
 		E41F374A25C55A8100C11178 /* ReverseWordInStringIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F374925C55A8100C11178 /* ReverseWordInStringIII.swift */; };
 		E41F374D25C55F2400C11178 /* ReverseOnlyLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F374C25C55F2400C11178 /* ReverseOnlyLetters.swift */; };
+		E41F375025C584F000C11178 /* FindAllAnagramsInAString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41F374F25C584F000C11178 /* FindAllAnagramsInAString.swift */; };
 		E4238E7A25B871600057462D /* SolveSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4238E7725B86EFA0057462D /* SolveSudoku.swift */; };
 		E425119E257E7B7000BA6EE3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425119D257E7B7000BA6EE3 /* main.swift */; };
 		E42511A6257E7C2200BA6EE3 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42511A5257E7C2200BA6EE3 /* TwoSum.swift */; };
@@ -167,6 +168,7 @@
 		E41F374625C557DC00C11178 /* ReverseWordInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordInString.swift; sourceTree = "<group>"; };
 		E41F374925C55A8100C11178 /* ReverseWordInStringIII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWordInStringIII.swift; sourceTree = "<group>"; };
 		E41F374C25C55F2400C11178 /* ReverseOnlyLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseOnlyLetters.swift; sourceTree = "<group>"; };
+		E41F374F25C584F000C11178 /* FindAllAnagramsInAString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAllAnagramsInAString.swift; sourceTree = "<group>"; };
 		E4238E7725B86EFA0057462D /* SolveSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolveSudoku.swift; sourceTree = "<group>"; };
 		E425119A257E7B7000BA6EE3 /* LeetCodeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		E425119D257E7B7000BA6EE3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -322,6 +324,8 @@
 				E41F374925C55A8100C11178 /* ReverseWordInStringIII.swift */,
 				E41F374C25C55F2400C11178 /* ReverseOnlyLetters.swift */,
 				E40EE1972584B7DF003E4885 /* ValidAnagram.swift */,
+				E40EE19A2584CEAE003E4885 /* GroupAnagrams.swift */,
+				E41F374F25C584F000C11178 /* FindAllAnagramsInAString.swift */,
 			);
 			path = Week09;
 			sourceTree = "<group>";
@@ -397,7 +401,6 @@
 				E40EE18E25825BEE003E4885 /* MaxArea.swift */,
 				E40EE19125827139003E4885 /* FizzBuzz.swift */,
 				E40EE1942583AD06003E4885 /* AddDigits.swift */,
-				E40EE19A2584CEAE003E4885 /* GroupAnagrams.swift */,
 				E40EE19D25851126003E4885 /* BinaryTree.swift */,
 				E40EE1A02585E671003E4885 /* UglyNumber.swift */,
 				E40EE1A3258609BA003E4885 /* TopKFrequent.swift */,
@@ -514,6 +517,7 @@
 				E4EBEBC52596D682007D26FE /* WordLadder.swift in Sources */,
 				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
 				E4EBEBE6259E0A8F007D26FE /* MaxSubarray.swift in Sources */,
+				E41F375025C584F000C11178 /* FindAllAnagramsInAString.swift in Sources */,
 				E4EBEBCB259739AB007D26FE /* JumpGame.swift in Sources */,
 				E4EBEBC825972146007D26FE /* Minesweeper.swift in Sources */,
 				E447E7FA258E440900E89845 /* Combinations.swift in Sources */,
