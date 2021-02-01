@@ -108,7 +108,7 @@ class LongestPalindromic {
             let len1 = expandAroundCenter(s, i, i)
             let len2 = expandAroundCenter(s, i, i + 1)
             let len = max(len1, len2)
-            if len > end - start {
+            if len > end - start + 1 {
                 start = i - (len - 1) / 2
                 end = i + len / 2
             }
@@ -116,13 +116,30 @@ class LongestPalindromic {
         return String(s[start..<end + 1])
     }
     
-    func expandAroundCenter(_ s: [Character], _ left: Int, _ right: Int) -> Int {
-        var l = left, r = right
-        while l >= 0 && r < s.count && s[l] == s[r] {
-            l -= 1
-            r += 1
+    func longestPalindrome11(_ s: String) -> String {
+        guard s.count > 1 else {
+            return s
         }
-        return r - l - 1
+        var start = 0, maxLen = 0, s = Array(s)
+        for i in 0..<s.count {
+            let len1 = expandAroundCenter(s, i, i)
+            let len2 = expandAroundCenter(s, i, i + 1)
+            let len = max(len1, len2)
+            if len > maxLen {
+                start = i - (len - 1) / 2
+                maxLen = len
+            }
+        }
+        return String(s[start..<start + maxLen])
+    }
+    
+    func expandAroundCenter(_ s: [Character], _ left: Int, _ right: Int) -> Int {
+        var left = left, right = right
+        while left >= 0 && right < s.count && s[left] == s[right] {
+            left -= 1
+            right += 1
+        }
+        return right - left - 1
     }
     
     func test() {
