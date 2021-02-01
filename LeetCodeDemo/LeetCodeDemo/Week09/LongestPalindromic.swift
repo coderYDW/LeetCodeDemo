@@ -40,7 +40,7 @@ import Foundation
 
 class LongestPalindromic {
     
-    //动态规划
+    //动态规划(超时)
     func longestPalindrome(_ s: String) -> String {
         guard s.count > 1 else {
             return s
