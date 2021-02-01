@@ -118,7 +118,7 @@ class LongestPalindromic {
     
     func expandAroundCenter(_ s: [Character], _ left: Int, _ right: Int) -> Int {
         var l = left, r = right
-        while l >= 0 && l < s.count && r < s.count && r < s.count && s[l] == s[r] {
+        while l >= 0 && r < s.count && s[l] == s[r] {
             l -= 1
             r += 1
         }
