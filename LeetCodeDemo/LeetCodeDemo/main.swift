@@ -42,5 +42,5 @@ print("Hello, World!")
 //print(b)
 
 
-let addd = FindAllAnagramsInAString()
+let addd = LongestPalindromic()
 addd.test()
