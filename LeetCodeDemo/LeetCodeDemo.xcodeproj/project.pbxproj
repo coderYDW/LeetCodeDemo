@@ -28,6 +28,7 @@
 		18BBA03525A581CF00CBE9ED /* Pratice02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03425A581CF00CBE9ED /* Pratice02.swift */; };
 		18BBA03F25A6DE0000CBE9ED /* Practice04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03E25A6DE0000CBE9ED /* Practice04.swift */; };
 		18D4C80225CD1B300050702E /* StockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C80125CD1B300050702E /* StockII.swift */; };
+		18D4C80625CD42C00050702E /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C80525CD42C00050702E /* LRUCache.swift */; };
 		18D87006259981AD0056FB8F /* MinGeneticMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D87005259981AD0056FB8F /* MinGeneticMutation.swift */; };
 		18D870092599AFFD0056FB8F /* SqrtX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D870082599AFFD0056FB8F /* SqrtX.swift */; };
 		18D8700C2599CF980056FB8F /* ValidPerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8700B2599CF980056FB8F /* ValidPerfectSquare.swift */; };
@@ -149,6 +150,7 @@
 		18BBA03425A581CF00CBE9ED /* Pratice02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pratice02.swift; sourceTree = "<group>"; };
 		18BBA03E25A6DE0000CBE9ED /* Practice04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Practice04.swift; sourceTree = "<group>"; };
 		18D4C80125CD1B300050702E /* StockII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockII.swift; sourceTree = "<group>"; };
+		18D4C80525CD42C00050702E /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		18D87005259981AD0056FB8F /* MinGeneticMutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinGeneticMutation.swift; sourceTree = "<group>"; };
 		18D870082599AFFD0056FB8F /* SqrtX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqrtX.swift; sourceTree = "<group>"; };
 		18D8700B2599CF980056FB8F /* ValidPerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPerfectSquare.swift; sourceTree = "<group>"; };
@@ -385,6 +387,7 @@
 		E4EBEC1225A6B449007D26FE /* Week01 */ = {
 			isa = PBXGroup;
 			children = (
+				18D4C80525CD42C00050702E /* LRUCache.swift */,
 				E4EBEBE0259B6DCD007D26FE /* Practice.swift */,
 				E4EBEC2025A8B491007D26FE /* RotateArray.swift */,
 				E4EBEC2F25AC9E46007D26FE /* SortColor.swift */,
@@ -531,6 +534,7 @@
 				1803F648258AE9C700CD5C03 /* ReversePrint.swift in Sources */,
 				E4EBEBD8259872AC007D26FE /* JumpGameII.swift in Sources */,
 				E4EBEBC52596D682007D26FE /* WordLadder.swift in Sources */,
+				18D4C80625CD42C00050702E /* LRUCache.swift in Sources */,
 				E40EE1A725864511003E4885 /* NAryTree.swift in Sources */,
 				E4EBEBE6259E0A8F007D26FE /* MaxSubarray.swift in Sources */,
 				E41F375025C584F000C11178 /* FindAllAnagramsInAString.swift in Sources */,
