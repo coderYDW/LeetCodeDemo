@@ -76,6 +76,7 @@
 		E48DC9C925BF108A00ED0D96 /* FirstUniqueChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48DC9C825BF108A00ED0D96 /* FirstUniqueChar.swift */; };
 		E4A07E8525CE5759002C24E4 /* ContaineWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */; };
 		E4A07E8925CE590D002C24E4 /* MoveZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8825CE590D002C24E4 /* MoveZero.swift */; };
+		E4A07E8C25CEADF0002C24E4 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */; };
 		E4BB406225BD65D6008E963D /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406125BD65D6008E963D /* RelativeSortArray.swift */; };
 		E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406425BD74A9008E963D /* LeaderBoard.swift */; };
 		E4BB406825BDC3CC008E963D /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406725BDC3CC008E963D /* CountingBits.swift */; };
@@ -201,6 +202,7 @@
 		E48DC9C825BF108A00ED0D96 /* FirstUniqueChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueChar.swift; sourceTree = "<group>"; };
 		E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaineWithMostWater.swift; sourceTree = "<group>"; };
 		E4A07E8825CE590D002C24E4 /* MoveZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZero.swift; sourceTree = "<group>"; };
+		E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		E4BB406125BD65D6008E963D /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		E4BB406425BD74A9008E963D /* LeaderBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoard.swift; sourceTree = "<group>"; };
 		E4BB406725BDC3CC008E963D /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
@@ -398,6 +400,7 @@
 				E4FFE4FF25BB177100A8E10C /* SwapNodesInPairs.swift */,
 				E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */,
 				E4A07E8825CE590D002C24E4 /* MoveZero.swift */,
+				E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */,
 			);
 			path = Week01;
 			sourceTree = "<group>";
@@ -610,6 +613,7 @@
 				E4EBEBDC25988422007D26FE /* WordLadderII.swift in Sources */,
 				E4FACDB2258C63CC009EB46F /* IsValidBST.swift in Sources */,
 				E4EBEC0125A20CAD007D26FE /* Fibonacci.swift in Sources */,
+				E4A07E8C25CEADF0002C24E4 /* ReverseLinkedList.swift in Sources */,
 				18543CCB25C79DA5007E3865 /* LongestPalindromicSubstring.swift in Sources */,
 				E447E7F1258CF8B700E89845 /* MaxDepth.swift in Sources */,
 				E4FACDA72588E23F009EB46F /* GenerateParenthesis.swift in Sources */,
