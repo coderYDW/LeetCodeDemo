@@ -77,6 +77,7 @@
 		E4A07E8525CE5759002C24E4 /* ContaineWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */; };
 		E4A07E8925CE590D002C24E4 /* MoveZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8825CE590D002C24E4 /* MoveZero.swift */; };
 		E4A07E8C25CEADF0002C24E4 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */; };
+		E4A07E8F25CECB6D002C24E4 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */; };
 		E4BB406225BD65D6008E963D /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406125BD65D6008E963D /* RelativeSortArray.swift */; };
 		E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406425BD74A9008E963D /* LeaderBoard.swift */; };
 		E4BB406825BDC3CC008E963D /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406725BDC3CC008E963D /* CountingBits.swift */; };
@@ -203,6 +204,7 @@
 		E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaineWithMostWater.swift; sourceTree = "<group>"; };
 		E4A07E8825CE590D002C24E4 /* MoveZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZero.swift; sourceTree = "<group>"; };
 		E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
+		E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		E4BB406125BD65D6008E963D /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		E4BB406425BD74A9008E963D /* LeaderBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoard.swift; sourceTree = "<group>"; };
 		E4BB406725BDC3CC008E963D /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
@@ -401,6 +403,7 @@
 				E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */,
 				E4A07E8825CE590D002C24E4 /* MoveZero.swift */,
 				E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */,
+				E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */,
 			);
 			path = Week01;
 			sourceTree = "<group>";
@@ -627,6 +630,7 @@
 				E40FD0C125ADF14E00DAEF45 /* PalindromicSubstrings.swift in Sources */,
 				E4EBEBCE25974278007D26FE /* SearchInRotatedSortedArray.swift in Sources */,
 				E40EE18F25825BEE003E4885 /* MaxArea.swift in Sources */,
+				E4A07E8F25CECB6D002C24E4 /* LinkedListCycle.swift in Sources */,
 				E407053C25C188B00017B416 /* ToLowerCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
