@@ -75,6 +75,7 @@
 		E481DA2625B9B61D0079E94E /* PowerOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */; };
 		E48DC9C925BF108A00ED0D96 /* FirstUniqueChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48DC9C825BF108A00ED0D96 /* FirstUniqueChar.swift */; };
 		E4A07E8525CE5759002C24E4 /* ContaineWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */; };
+		E4A07E8925CE590D002C24E4 /* MoveZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8825CE590D002C24E4 /* MoveZero.swift */; };
 		E4BB406225BD65D6008E963D /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406125BD65D6008E963D /* RelativeSortArray.swift */; };
 		E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406425BD74A9008E963D /* LeaderBoard.swift */; };
 		E4BB406825BDC3CC008E963D /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406725BDC3CC008E963D /* CountingBits.swift */; };
@@ -199,6 +200,7 @@
 		E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfTwo.swift; sourceTree = "<group>"; };
 		E48DC9C825BF108A00ED0D96 /* FirstUniqueChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqueChar.swift; sourceTree = "<group>"; };
 		E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaineWithMostWater.swift; sourceTree = "<group>"; };
+		E4A07E8825CE590D002C24E4 /* MoveZero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZero.swift; sourceTree = "<group>"; };
 		E4BB406125BD65D6008E963D /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		E4BB406425BD74A9008E963D /* LeaderBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoard.swift; sourceTree = "<group>"; };
 		E4BB406725BDC3CC008E963D /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
@@ -395,6 +397,7 @@
 				E4EBEC2F25AC9E46007D26FE /* SortColor.swift */,
 				E4FFE4FF25BB177100A8E10C /* SwapNodesInPairs.swift */,
 				E4A07E8425CE5759002C24E4 /* ContaineWithMostWater.swift */,
+				E4A07E8825CE590D002C24E4 /* MoveZero.swift */,
 			);
 			path = Week01;
 			sourceTree = "<group>";
@@ -560,6 +563,7 @@
 				E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */,
 				E42F8DE725C6F7D700108D65 /* LengthOfLIS.swift in Sources */,
 				E4EBEBEA259F752A007D26FE /* FourSum.swift in Sources */,
+				E4A07E8925CE590D002C24E4 /* MoveZero.swift in Sources */,
 				E4EBEBFD25A16DAF007D26FE /* Triangle.swift in Sources */,
 				E4EBEC2A25AB2B28007D26FE /* DecodeWays.swift in Sources */,
 				E4FFE50025BB177100A8E10C /* SwapNodesInPairs.swift in Sources */,
