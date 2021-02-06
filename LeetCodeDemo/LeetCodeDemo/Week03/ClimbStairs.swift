@@ -27,7 +27,8 @@ class ClimbStairs {
         }
         return dic[n]!
     }
-    //可以指定每步台阶数
+    
+    //可以指定每步台阶数 (排列)
     func climbStairs20(_ n: Int) -> Int {
         let steps = [1, 2]
         var dp = [Int](repeating: 0, count: n + 1)
@@ -41,4 +42,20 @@ class ClimbStairs {
         }
         return dp[n]
     }
+    
+    //可以指定每步台阶数 (组合:非此题解)
+    func climbStairs21(_ n: Int) -> Int {
+        let steps = [1, 2]
+        var dp = [Int](repeating: 0, count: n + 1)
+        dp[0] = 1
+        for step in steps {
+            for i in 0..<n + 1 {
+                if step <= i {
+                    dp[i] += dp[i - step]
+                }
+            }
+        }
+        return dp[n]
+    }
+    
 }
