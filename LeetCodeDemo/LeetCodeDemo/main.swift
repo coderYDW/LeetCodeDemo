@@ -41,6 +41,6 @@ print("Hello, World!")
 //let b = a[2...]
 //print(b)
 
-
+//测试
 let addd = LongestPalindromic()
 addd.test()
