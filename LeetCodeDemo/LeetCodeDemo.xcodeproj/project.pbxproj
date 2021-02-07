@@ -29,6 +29,7 @@
 		18BBA03F25A6DE0000CBE9ED /* Practice04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03E25A6DE0000CBE9ED /* Practice04.swift */; };
 		18D4C80225CD1B300050702E /* StockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C80125CD1B300050702E /* StockII.swift */; };
 		18D4C80625CD42C00050702E /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C80525CD42C00050702E /* LRUCache.swift */; };
+		18D4C80A25CF9DF10050702E /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C80925CF9DF10050702E /* ValidParentheses.swift */; };
 		18D87006259981AD0056FB8F /* MinGeneticMutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D87005259981AD0056FB8F /* MinGeneticMutation.swift */; };
 		18D870092599AFFD0056FB8F /* SqrtX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D870082599AFFD0056FB8F /* SqrtX.swift */; };
 		18D8700C2599CF980056FB8F /* ValidPerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D8700B2599CF980056FB8F /* ValidPerfectSquare.swift */; };
@@ -156,6 +157,7 @@
 		18BBA03E25A6DE0000CBE9ED /* Practice04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Practice04.swift; sourceTree = "<group>"; };
 		18D4C80125CD1B300050702E /* StockII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockII.swift; sourceTree = "<group>"; };
 		18D4C80525CD42C00050702E /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		18D4C80925CF9DF10050702E /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		18D87005259981AD0056FB8F /* MinGeneticMutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinGeneticMutation.swift; sourceTree = "<group>"; };
 		18D870082599AFFD0056FB8F /* SqrtX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqrtX.swift; sourceTree = "<group>"; };
 		18D8700B2599CF980056FB8F /* ValidPerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPerfectSquare.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 				E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */,
 				E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */,
 				E4A07E9125CED033002C24E4 /* LinkedListCycleII.swift */,
+				18D4C80925CF9DF10050702E /* ValidParentheses.swift */,
 			);
 			path = Week01;
 			sourceTree = "<group>";
@@ -568,6 +571,7 @@
 				E4F012C525B3170E0038908D /* TrieTree.swift in Sources */,
 				E40EE1852580C526003E4885 /* RemoveOutermostParentheses.swift in Sources */,
 				E40EE1A12585E671003E4885 /* UglyNumber.swift in Sources */,
+				18D4C80A25CF9DF10050702E /* ValidParentheses.swift in Sources */,
 				E4BB406225BD65D6008E963D /* RelativeSortArray.swift in Sources */,
 				E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */,
 				E42F8DE725C6F7D700108D65 /* LengthOfLIS.swift in Sources */,
