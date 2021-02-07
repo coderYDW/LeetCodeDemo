@@ -79,6 +79,7 @@
 		E4A07E8C25CEADF0002C24E4 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */; };
 		E4A07E8F25CECB6D002C24E4 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */; };
 		E4A07E9225CED033002C24E4 /* LinkedListCycleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E9125CED033002C24E4 /* LinkedListCycleII.swift */; };
+		E4A07E9525CED88E002C24E4 /* ProductExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A07E9425CED88E002C24E4 /* ProductExceptSelf.swift */; };
 		E4BB406225BD65D6008E963D /* RelativeSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406125BD65D6008E963D /* RelativeSortArray.swift */; };
 		E4BB406525BD74A9008E963D /* LeaderBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406425BD74A9008E963D /* LeaderBoard.swift */; };
 		E4BB406825BDC3CC008E963D /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406725BDC3CC008E963D /* CountingBits.swift */; };
@@ -207,6 +208,7 @@
 		E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 		E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		E4A07E9125CED033002C24E4 /* LinkedListCycleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycleII.swift; sourceTree = "<group>"; };
+		E4A07E9425CED88E002C24E4 /* ProductExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductExceptSelf.swift; sourceTree = "<group>"; };
 		E4BB406125BD65D6008E963D /* RelativeSortArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeSortArray.swift; sourceTree = "<group>"; };
 		E4BB406425BD74A9008E963D /* LeaderBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoard.swift; sourceTree = "<group>"; };
 		E4BB406725BDC3CC008E963D /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 				E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */,
 				E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */,
 				E4A07E9125CED033002C24E4 /* LinkedListCycleII.swift */,
+				E4A07E9425CED88E002C24E4 /* ProductExceptSelf.swift */,
 			);
 			path = Week01;
 			sourceTree = "<group>";
@@ -559,6 +562,7 @@
 				E447E7FA258E440900E89845 /* Combinations.swift in Sources */,
 				1803F64F258B553800CD5C03 /* Tree.swift in Sources */,
 				E4FF1D11257FA3CE00B034BE /* SlidingWindowMaximum.swift in Sources */,
+				E4A07E9525CED88E002C24E4 /* ProductExceptSelf.swift in Sources */,
 				E42F8DE325C6F3DA00108D65 /* IsomorphicStrings.swift in Sources */,
 				E4EBEBF725A0B28E007D26FE /* UniquePathsII.swift in Sources */,
 				18BBA02C25A4875F00CBE9ED /* CoinChange.swift in Sources */,
