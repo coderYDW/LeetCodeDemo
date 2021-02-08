@@ -18,7 +18,7 @@ class ThreeSum {
         var res = [[Int]]()
         for i in 0..<n - 2 {
             if nums[i] + nums[i + 1] + nums[i + 2] > 0 {
-                break
+                return res
             }
             if i > 0 && nums[i] == nums[i - 1] {
                 continue
