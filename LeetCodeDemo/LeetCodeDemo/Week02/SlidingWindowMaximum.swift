@@ -7,6 +7,12 @@
 
 import Foundation
 
+// 1、使用双端队列存储窗口内的数据Index
+// 2、加入新值前，判断窗口内的值需不需要划出
+// 3、从后往前判断窗口内的值是否小于新加入的值
+// 4、小于新入队的值出队
+// 5、每次区队列头的值就是窗口的最大值
+
 class SlidingWindowMaximum {
     /// 滑动窗口最大值
     func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
@@ -44,30 +50,28 @@ class SlidingWindowMaximum {
         return res
     }
     
-    /*
-    func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
-        guard k > 0 && nums.count > 0 else {
+    
+    func maxSlidingWindow10(_ nums: [Int], _ k: Int) -> [Int] {
+        guard k > 0 && nums.count >= k else {
             return []
         }
         var queue = [Int]()
         var res = [Int]()
-        var j = 1 - k
         for i in 0..<nums.count {
-            if j > 0 && queue.first! == nums[j - 1] {
+            if !queue.isEmpty && queue.first! == i - k {
                 queue.removeFirst()
             }
-            while !queue.isEmpty && queue.last! < nums[i] {
+            while !queue.isEmpty && nums[queue.last!] <= nums[i] {
                 queue.removeLast()
             }
-            queue.append(nums[i])
-            if j >= 0 {
-                res.append(queue.first!)
+            queue.append(i)
+            if i - k + 1 >= 0 {
+                res.append(nums[queue.first!])
             }
-            j += 1
         }
         return res
     }
-    */
+    
     
     func test() {
         let nums = [1, -2, 3, -4, 5, 6, 7, 8, 2]
