@@ -22,6 +22,16 @@ class InvertTree {
         return root
     }
     
+    func invertTree01(_ root: TreeNode?) -> TreeNode? {
+        guard let root = root else {
+            return nil
+        }
+        swap(&root.left, &root.right)
+        _ = invertTree(root.left)
+        _ = invertTree(root.right)
+        return root
+    }
+    
     /*
      * 时间复杂度：O(n)，n为树的节点数。
      * 空间复杂度：O(n)，n为栈深度。
@@ -33,7 +43,8 @@ class InvertTree {
         var stack = [root]
         while !stack.isEmpty {
             let node = stack.popLast()
-            (node!.left, node!.right) = (node!.right, node!.left)
+            //(node!.left, node!.right) = (node!.right, node!.left)
+            swap(&node!.left, &node!.right)
             if let left = node?.left {
                 stack.append(left)
             }
