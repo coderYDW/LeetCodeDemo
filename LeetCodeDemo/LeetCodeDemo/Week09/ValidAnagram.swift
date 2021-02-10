@@ -46,14 +46,15 @@ class ValidAnagram {
         }
         var hashMap = [Character: Int]()
         for c in s {
-            hashMap[c] = hashMap[c] ?? 0 + 1
+            hashMap[c, default: 0] += 1
         }
         for c in t {
-            if hashMap[c] == nil {
-                return false
-            }
-            hashMap[c]! -= 1
-            if hashMap[c]! < 0 {
+            if let val = hashMap[c] {
+                if val - 1 < 0 {
+                    return false
+                }
+                hashMap[c]! -= 1
+            } else {
                 return false
             }
         }
