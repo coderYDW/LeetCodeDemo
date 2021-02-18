@@ -295,6 +295,7 @@
 		E4238E7325B86DCF0057462D /* Week08 */ = {
 			isa = PBXGroup;
 			children = (
+				188188D325DE4E2200744153 /* Practice08.swift */,
 				E481DA2125B954D30079E94E /* NumberOfOneBit.swift */,
 				181302EA25B95CAD00140E61 /* ReverseBits.swift */,
 				E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */,
@@ -303,7 +304,6 @@
 				E4BB406425BD74A9008E963D /* LeaderBoard.swift */,
 				E4BB406725BDC3CC008E963D /* CountingBits.swift */,
 				189DFF3C25BE67FA00BCE07A /* Sort.swift */,
-				188188D325DE4E2200744153 /* Practice08.swift */,
 			);
 			path = Week08;
 			sourceTree = "<group>";

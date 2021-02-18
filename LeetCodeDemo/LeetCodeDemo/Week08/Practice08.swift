@@ -9,7 +9,26 @@ import Foundation
 
 class Practice08 {
     
+    func quickSort(_ arr: inout [Int], _ left: Int, _ right: Int) {
+        if left >= right {
+            return
+        }
+        let pivot = partition(&arr, left, right)
+        quickSort(&arr, left, pivot - 1)
+        quickSort(&arr, pivot + 1, right)
+    }
     
+    func partition(_ arr: inout [Int], _ left: Int, _ right: Int) -> Int {
+        var pivot = right, counter = left
+        for i in left..<right {
+            if arr[i] < arr[pivot] {
+                arr.swapAt(i, counter)
+                counter += 1
+            }
+        }
+        arr.swapAt(pivot, counter)
+        return counter
+    }
     
     func mergeSort(_ arr: inout [Int], _ left: Int, _ right: Int) {
         if left >= right {
@@ -47,7 +66,7 @@ class Practice08 {
     
     func test() {
         var arr = [4,5,2,63,1,52,7,9,6]
-        mergeSort(&arr, 0, arr.count - 1)
+        quickSort(&arr, 0, arr.count - 1)
         print(arr)
     }
     
