@@ -42,5 +42,5 @@ print("Hello, World!")
 //print(b)
 
 //测试
-let addd = LongestPalindromic()
+let addd = Practice08()
 addd.test()
