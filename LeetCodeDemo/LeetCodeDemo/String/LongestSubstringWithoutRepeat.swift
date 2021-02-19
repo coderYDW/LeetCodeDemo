@@ -6,7 +6,9 @@
 //
 
 import Foundation
-
+/*
+ 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+ */
 class LongestSubstringWithoutRepeat {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         let n = s.count, s = Array(s)
@@ -24,4 +26,27 @@ class LongestSubstringWithoutRepeat {
         }
         return ans
     }
+    
+    /*
+     国际站高票解答
+     两个指针，从开头开始，
+     一个指针从头开始遍历，
+     用一个字典存储字符和对应的下标，
+     如果发现字符存在，更新另一个指针到对应下标的后一位,
+     每次遍历更新结果。
+     */
+    func lengthOfLongestSubstring10(_ s: String) -> Int {
+        let n = s.count, s = Array(s)
+        var dict = [Character: Int]()
+        var j = 0, ans = 0
+        for i in 0..<n {
+            if dict[s[i]] != nil {
+                j = max(j, dict[s[i]]! + 1)
+            }
+            dict[s[i]] = i
+            ans = max(ans, i - j + 1)
+        }
+        return ans
+    }
+    
 }
