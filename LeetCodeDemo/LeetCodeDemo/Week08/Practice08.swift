@@ -9,6 +9,49 @@ import Foundation
 
 class Practice08 {
     
+    func heapSort (_ arr: inout [Int]) {
+        let n = arr.count - 1
+        //建立大顶堆
+        buildHeap(&arr, n)
+        //交换堆顶和最后一个元素值,最后一个元素是最大值
+        //堆化前n - 1个元素值
+        //以此类推
+        var k = n
+        while k > 0 {
+            arr.swapAt(k, 0)
+            k -= 1
+            heapify(&arr, k, 0)
+        }
+    }
+    
+    func buildHeap(_ arr: inout [Int], _ n: Int) {
+        var i = n / 2 //从非叶子节点开始堆化处理
+        while i >= 0 {
+            heapify(&arr, n, i)
+            i -= 1
+        }
+    }
+    
+    func heapify(_ arr: inout [Int], _ n: Int, _ i: Int) {
+        var i = i
+        while true {
+            var maxPos = i
+            let left = 2 * i + 1
+            if left <= n && arr[maxPos] < arr[left] {
+                maxPos = left
+            }
+            let right = 2 * i + 2
+            if right <= n && arr[maxPos] < arr[right] {
+                maxPos = right
+            }
+            if maxPos == i {
+                break
+            }
+            arr.swapAt(i, maxPos)
+            i = maxPos
+        }
+    }
+    
     func quickSort(_ arr: inout [Int], _ left: Int, _ right: Int) {
         if left >= right {
             return
@@ -66,7 +109,8 @@ class Practice08 {
     
     func test() {
         var arr = [4,5,2,63,1,52,7,9,6]
-        quickSort(&arr, 0, arr.count - 1)
+        //quickSort(&arr, 0, arr.count - 1)
+        heapSort(&arr)
         print(arr)
     }
     
