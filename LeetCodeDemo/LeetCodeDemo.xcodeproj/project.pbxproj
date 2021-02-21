@@ -345,7 +345,6 @@
 			children = (
 				E425119D257E7B7000BA6EE3 /* main.swift */,
 				1803F64E258B553800CD5C03 /* Tree.swift */,
-				18D4C80525CD42C00050702E /* LRUCache.swift */,
 				E4FACDA92588E984009EB46F /* Week02 */,
 				E4FACDAA2588E9AB009EB46F /* Week03 */,
 				E41114D825937D39007E9A3A /* Week04 */,
@@ -379,6 +378,7 @@
 		E47D15B825E205460074EE20 /* LinkList */ = {
 			isa = PBXGroup;
 			children = (
+				18D4C80525CD42C00050702E /* LRUCache.swift */,
 				E4FFE4FF25BB177100A8E10C /* SwapNodesInPairs.swift */,
 				E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */,
 				E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */,
