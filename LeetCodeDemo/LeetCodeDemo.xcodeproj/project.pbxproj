@@ -76,6 +76,7 @@
 		E447E7FE258E51C000E89845 /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447E7FD258E51C000E89845 /* Permutations.swift */; };
 		E45705E425C05E4D00A59920 /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45705E325C05E4D00A59920 /* MinCostClimbingStairs.swift */; };
 		E47D15B025DFF1990074EE20 /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47D15AF25DFF1990074EE20 /* MergeTwoLists.swift */; };
+		E47D15B525E14A630074EE20 /* FindLongestSuarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47D15B425E14A630074EE20 /* FindLongestSuarray.swift */; };
 		E481DA1F25B94F3A0079E94E /* ValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481DA1E25B94F3A0079E94E /* ValidSudoku.swift */; };
 		E481DA2225B954D30079E94E /* NumberOfOneBit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481DA2125B954D30079E94E /* NumberOfOneBit.swift */; };
 		E481DA2625B9B61D0079E94E /* PowerOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */; };
@@ -212,6 +213,7 @@
 		E447E7FD258E51C000E89845 /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		E45705E325C05E4D00A59920 /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
 		E47D15AF25DFF1990074EE20 /* MergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLists.swift; sourceTree = "<group>"; };
+		E47D15B425E14A630074EE20 /* FindLongestSuarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindLongestSuarray.swift; sourceTree = "<group>"; };
 		E481DA1E25B94F3A0079E94E /* ValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSudoku.swift; sourceTree = "<group>"; };
 		E481DA2125B954D30079E94E /* NumberOfOneBit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfOneBit.swift; sourceTree = "<group>"; };
 		E481DA2525B9B61D0079E94E /* PowerOfTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerOfTwo.swift; sourceTree = "<group>"; };
@@ -354,9 +356,18 @@
 				E4F012C325B316FC0038908D /* Week07 */,
 				E4238E7325B86DCF0057462D /* Week08 */,
 				E48DC9C725BF101100ED0D96 /* Week09 */,
+				E47D15B325E14A230074EE20 /* Array */,
 				E42415D725DD5DA600973063 /* String */,
 			);
 			path = LeetCodeDemo;
+			sourceTree = "<group>";
+		};
+		E47D15B325E14A230074EE20 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				E47D15B425E14A630074EE20 /* FindLongestSuarray.swift */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 		E48DC9C725BF101100ED0D96 /* Week09 */ = {
@@ -597,6 +608,7 @@
 				E42F8DE325C6F3DA00108D65 /* IsomorphicStrings.swift in Sources */,
 				E4EBEBF725A0B28E007D26FE /* UniquePathsII.swift in Sources */,
 				18BBA02C25A4875F00CBE9ED /* CoinChange.swift in Sources */,
+				E47D15B525E14A630074EE20 /* FindLongestSuarray.swift in Sources */,
 				18543CC725C64162007E3865 /* ValidPalindrome.swift in Sources */,
 				1803F6562591D9DD00CD5C03 /* MajorityElement.swift in Sources */,
 				189DFF3D25BE67FA00BCE07A /* Sort.swift in Sources */,
