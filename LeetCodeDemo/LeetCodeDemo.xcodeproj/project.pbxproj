@@ -29,6 +29,7 @@
 		18BBA03125A5738300CBE9ED /* Practice06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03025A5738300CBE9ED /* Practice06.swift */; };
 		18BBA03525A581CF00CBE9ED /* Pratice02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03425A581CF00CBE9ED /* Pratice02.swift */; };
 		18BBA03F25A6DE0000CBE9ED /* Practice04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BBA03E25A6DE0000CBE9ED /* Practice04.swift */; };
+		18CCA45F25E368C4004C62F6 /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA45E25E368C4004C62F6 /* LinkList.swift */; };
 		18D4C80225CD1B300050702E /* StockII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C80125CD1B300050702E /* StockII.swift */; };
 		18D4C80625CD42C00050702E /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C80525CD42C00050702E /* LRUCache.swift */; };
 		18D4C80A25CF9DF10050702E /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4C80925CF9DF10050702E /* ValidParentheses.swift */; };
@@ -165,6 +166,7 @@
 		18BBA03025A5738300CBE9ED /* Practice06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice06.swift; sourceTree = "<group>"; };
 		18BBA03425A581CF00CBE9ED /* Pratice02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pratice02.swift; sourceTree = "<group>"; };
 		18BBA03E25A6DE0000CBE9ED /* Practice04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Practice04.swift; sourceTree = "<group>"; };
+		18CCA45E25E368C4004C62F6 /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
 		18D4C80125CD1B300050702E /* StockII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockII.swift; sourceTree = "<group>"; };
 		18D4C80525CD42C00050702E /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		18D4C80925CF9DF10050702E /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 		E47D15B825E205460074EE20 /* LinkList */ = {
 			isa = PBXGroup;
 			children = (
+				18CCA45E25E368C4004C62F6 /* LinkList.swift */,
 				18D4C80525CD42C00050702E /* LRUCache.swift */,
 				E4FFE4FF25BB177100A8E10C /* SwapNodesInPairs.swift */,
 				E4A07E8B25CEADF0002C24E4 /* ReverseLinkedList.swift */,
@@ -584,6 +587,7 @@
 				E4A07E8525CE5759002C24E4 /* ContaineWithMostWater.swift in Sources */,
 				E41F374725C557DC00C11178 /* ReverseWordInString.swift in Sources */,
 				E481DA2225B954D30079E94E /* NumberOfOneBit.swift in Sources */,
+				18CCA45F25E368C4004C62F6 /* LinkList.swift in Sources */,
 				E40EE1982584B7DF003E4885 /* ValidAnagram.swift in Sources */,
 				E447E7ED258CDBB900E89845 /* MyCircularDeque.swift in Sources */,
 				E4238E7A25B871600057462D /* SolveSudoku.swift in Sources */,
