@@ -353,7 +353,7 @@
 				E4FACDAA2588E9AB009EB46F /* Week03 */,
 				E41114D825937D39007E9A3A /* Week04 */,
 				E4EBEBE4259E0A55007D26FE /* Week05 */,
-				E4EBEBFF25A20BEB007D26FE /* Week06 */,
+				E4EBEBFF25A20BEB007D26FE /* DynamicPrograming */,
 				E4F012C325B316FC0038908D /* Week07 */,
 				E4238E7325B86DCF0057462D /* Week08 */,
 				E48DC9C725BF101100ED0D96 /* Week09 */,
@@ -433,7 +433,7 @@
 			path = Week05;
 			sourceTree = "<group>";
 		};
-		E4EBEBFF25A20BEB007D26FE /* Week06 */ = {
+		E4EBEBFF25A20BEB007D26FE /* DynamicPrograming */ = {
 			isa = PBXGroup;
 			children = (
 				18BBA03025A5738300CBE9ED /* Practice06.swift */,
@@ -454,7 +454,7 @@
 				E4EBEC2C25AB305F007D26FE /* MaxSquare.swift */,
 				E40FD0C025ADF14E00DAEF45 /* PalindromicSubstrings.swift */,
 			);
-			path = Week06;
+			path = DynamicPrograming;
 			sourceTree = "<group>";
 		};
 		E4F012C325B316FC0038908D /* Week07 */ = {
