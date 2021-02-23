@@ -25,6 +25,7 @@ class CoinChangeII {
             }
             for i in coin..<amount + 1 {
                 dp[i] += dp[i - coin]
+                debugPrint("coin = \(coin), amount = \(i), dp[\(i)] = \(dp[i])")
             }
         }
         return dp[amount]
@@ -40,15 +41,23 @@ class CoinChangeII {
         }
         var dp = [Int](repeating: 0, count: amount + 1)
         dp[0] = 1
-        
         for i in 0..<amount + 1 {
             for coin in coins {
                 if coin <= i {
                     dp[i] = dp[i] + dp[i - coin]
+                    debugPrint("amount = \(i), coin = \(coin), dp[\(i)] = \(dp[i])")
                 }
             }
         }
         return dp[amount]
+    }
+    
+    func test() {
+        let res = change(5, [1,2,5])
+        debugPrint(res)
+        
+        let res1 = change10(5, [1,2,5])
+        debugPrint(res1)
     }
     
 }
