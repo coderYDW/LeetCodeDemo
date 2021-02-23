@@ -9,7 +9,12 @@ import Foundation
 
 class CoinChangeII {
     
-    //组合数
+    /*
+     组合数
+     以硬币为基准
+     用每一个硬币去匹配所有金额
+     相当于对每一个金额组合了所有的硬币
+     */
     func change(_ amount: Int, _ coins: [Int]) -> Int {
         if amount == 0 {
             return 1
@@ -31,7 +36,12 @@ class CoinChangeII {
         return dp[amount]
     }
     
-    //排列数
+    /*
+     排列数
+     以金额为基准
+     每一个金额, 都用不同的硬币去尝试
+     相当于排列了所有的可能
+     */
     func change10(_ amount: Int, _ coins: [Int]) -> Int {
         if amount == 0 {
             return 1
