@@ -36,17 +36,17 @@ class LongestSubstringWithoutRepeat {
      每次遍历更新结果。
      */
     func lengthOfLongestSubstring10(_ s: String) -> Int {
-        let n = s.count, s = Array(s)
-        var dict = [Character: Int]()
-        var j = 0, ans = 0
+        var posMap = [Character: Int]()
+        let s = Array(s), n = s.count
+        var res = 0, k = 0
         for i in 0..<n {
-            if dict[s[i]] != nil {
-                j = max(j, dict[s[i]]! + 1)
+            if let pos = posMap[s[i]] {
+                k = max(k, pos + 1)
             }
-            dict[s[i]] = i
-            ans = max(ans, i - j + 1)
+            posMap[s[i]] = i
+            res = max(res, i - k + 1)
         }
-        return ans
+        return res
     }
     
 }
