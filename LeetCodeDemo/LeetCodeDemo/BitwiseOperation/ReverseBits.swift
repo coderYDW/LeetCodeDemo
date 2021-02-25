@@ -29,4 +29,19 @@ class ReverseBits {
         }
         return Int(res)
     }
+    
+    func reverseBits20(_ n: Int) -> Int {
+        let a = String(n, radix: 2)
+        var str = String(a.reversed())
+        let count = str.count
+        if count < 32 {
+            for _ in 0..<32 - count {
+                c.append("0")
+            }
+        }
+        if let num = Int(str, radix: 2) {
+            return num
+        }
+        return 0
+    }
 }
