@@ -15,6 +15,7 @@
 		1803F6592591E41F00CD5C03 /* LetterOfPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */; };
 		1803F65C2592DD2D00CD5C03 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803F65B2592DD2D00CD5C03 /* NQueens.swift */; };
 		181302EB25B95CAD00140E61 /* ReverseBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181302EA25B95CAD00140E61 /* ReverseBits.swift */; };
+		1824E76B25EDF7C50055E691 /* ReverseLinkListInKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824E76A25EDF7C50055E691 /* ReverseLinkListInKGroup.swift */; };
 		18543CC725C64162007E3865 /* ValidPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18543CC625C64162007E3865 /* ValidPalindrome.swift */; };
 		18543CCB25C79DA5007E3865 /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18543CCA25C79DA5007E3865 /* LongestPalindromicSubstring.swift */; };
 		188188D925DF9C2100744153 /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188188D825DF9C2100744153 /* HeapSort.swift */; };
@@ -148,6 +149,7 @@
 		1803F6582591E41F00CD5C03 /* LetterOfPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterOfPhoneNumber.swift; sourceTree = "<group>"; };
 		1803F65B2592DD2D00CD5C03 /* NQueens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		181302EA25B95CAD00140E61 /* ReverseBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseBits.swift; sourceTree = "<group>"; };
+		1824E76A25EDF7C50055E691 /* ReverseLinkListInKGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkListInKGroup.swift; sourceTree = "<group>"; };
 		18543CC625C64162007E3865 /* ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPalindrome.swift; sourceTree = "<group>"; };
 		18543CCA25C79DA5007E3865 /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		188188D825DF9C2100744153 /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
@@ -411,6 +413,7 @@
 				E4A07E8E25CECB6D002C24E4 /* LinkedListCycle.swift */,
 				E4A07E9125CED033002C24E4 /* LinkedListCycleII.swift */,
 				E47D15AF25DFF1990074EE20 /* MergeTwoLists.swift */,
+				1824E76A25EDF7C50055E691 /* ReverseLinkListInKGroup.swift */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -567,6 +570,7 @@
 				E4A07E8525CE5759002C24E4 /* ContaineWithMostWater.swift in Sources */,
 				E41F374725C557DC00C11178 /* ReverseWordInString.swift in Sources */,
 				E481DA2225B954D30079E94E /* NumberOfOneBit.swift in Sources */,
+				1824E76B25EDF7C50055E691 /* ReverseLinkListInKGroup.swift in Sources */,
 				18CCA45F25E368C4004C62F6 /* LinkList.swift in Sources */,
 				E40EE1982584B7DF003E4885 /* ValidAnagram.swift in Sources */,
 				E447E7ED258CDBB900E89845 /* MyCircularDeque.swift in Sources */,
