@@ -36,7 +36,7 @@ class ReverseBits {
         let count = str.count
         if count < 32 {
             for _ in 0..<32 - count {
-                c.append("0")
+                str.append("0")
             }
         }
         if let num = Int(str, radix: 2) {

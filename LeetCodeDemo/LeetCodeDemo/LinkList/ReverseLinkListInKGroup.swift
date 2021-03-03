@@ -8,40 +8,49 @@
 import Foundation
 
 class ReverseLinkListInKGroup {
+    
     func reverseKGroup(_ head: ListNode?, _ k: Int) -> ListNode? {
-        var head = head
-        let hair = ListNode()
-        hair.next = head
-        var pre = hair
-        while head != nil {
-            var tail: ListNode? = pre
+        let dummy = ListNode(0, head)
+        var prev: ListNode? = dummy, start = head, end: ListNode?, temp: ListNode?
+        while start != nil {
+            end = prev
             for _ in 0..<k {
-                tail = tail?.next
-                if tail == nil {
-                    return hair.next
+                end = end?.next
+                if end == nil {
+                    return dummy.next
                 }
             }
-            let nex = tail?.next
-            let reverse = myReverse(head!, tail!)
-            head = reverse.first!
-            tail = reverse.last!
-            pre.next = head
-            tail?.next = nex
-            pre = tail!
-            head = tail?.next
+            temp = end?.next
+            let res = reverse(start, end)
+            start = res.start
+            end = res.end
+            prev?.next = start
+            end?.next = temp
+            prev = end
+            start = temp
         }
-        return hair.next
+        return dummy.next
+    }
+    func reverse(_ start: ListNode?, _ end: ListNode?) -> (start: ListNode?, end: ListNode?) {
+        var prev = end?.next, cur = start, temp: ListNode?
+        while prev !== end {
+            temp = cur?.next
+            cur?.next = prev
+            prev = cur
+            cur = temp
+        }
+        return (end, start)
     }
     
-    func myReverse(_ head: ListNode, _ tail: ListNode) -> [ListNode] {
-        var prev = tail.next
-        var p = head
-        while prev !== tail {
-            let nex = p.next!
-            p.next = prev
-            prev = p
-            p = nex
+    func test() {
+        let head = ListNode(1)
+        var node = head
+        for i in 2..<6 {
+            let temp = ListNode(i)
+            node.next = temp
+            node = temp
         }
-        return [tail, head]
+        let new = reverseKGroup(head, 2)
+        print("end")
     }
 }
