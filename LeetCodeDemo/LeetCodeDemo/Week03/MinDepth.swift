@@ -32,6 +32,7 @@ class MinDepth {
         }
         let left = minDepth(root.left)
         let right = minDepth(root.right)
+        //如果有一边为空,就算另一边的最小深度
         if left == 0 || right == 0 {
             return left + right + 1
         }
