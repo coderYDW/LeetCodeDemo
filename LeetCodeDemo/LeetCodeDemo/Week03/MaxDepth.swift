@@ -9,7 +9,11 @@ import Foundation
 
 class MaxDepth {
     func maxDepth(_ root: TreeNode?) -> Int {
-        guard let root = root else { return 0 }
-        return max(maxDepth(root.left), maxDepth(root.right)) + 1
+        guard let root = root else {
+            return 0
+        }
+        let leftDepth = maxDepth(root.left)
+        let rightDepth = maxDepth(root.right)
+        return max(leftDepth, rightDepth) + 1
     }
 }
