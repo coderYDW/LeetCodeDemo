@@ -55,7 +55,7 @@ class Sort {
      3. 直到没有任何一对数字需要比较时完成。
      */
     func bubbleSort(_ arr: inout [Int]) {
-        for i in 0 ..< arr.count {
+        for i in 0 ..< arr.count - 1 {
             for j in 0 ..< arr.count - 1 - i {
                 if arr[j] > arr[j + 1] {
                     arr.swapAt(j, j + 1)
@@ -193,8 +193,8 @@ class Sort {
     
     func test() {
         var arr = [15,2,1,6,7,9,34,5]
-        //heapSort(&arr)
-        quickSort(&arr, 0, arr.count - 1)
+        bubbleSort(&arr)
+//        quickSort(&arr, 0, arr.count - 1)
         print(arr)
     }
     
