@@ -43,4 +43,10 @@ class ReverseLinkedList {
         head?.next = nil
         return newHead
     }
+    
+    func test() {
+        let a = LinkList.createList(5)
+        LinkList.printLinkList(a)
+        //Unmanaged
+    }
 }

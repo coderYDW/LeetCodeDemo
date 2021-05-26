@@ -42,5 +42,5 @@ print("Hello, World!")
 //print(b)
 
 //测试
-let addd = ReverseLinkListInKGroup()
+let addd = ReverseLinkedList()
 addd.test()

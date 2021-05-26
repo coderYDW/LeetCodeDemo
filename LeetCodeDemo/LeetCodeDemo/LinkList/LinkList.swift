@@ -30,4 +30,33 @@ public class ListNode {
 
 class LinkList {
     
+    public static func createList(_ n: Int) -> ListNode? {
+        if n <= 0 {
+            return nil
+        }
+        let dummy: ListNode = ListNode(0)
+        var temp: ListNode? = dummy
+        for i in 0..<n {
+            temp?.next = ListNode(i)
+            temp = temp?.next
+        }
+        return dummy.next
+    }
+    
+    public static func printLinkList(_ head: ListNode?) {
+        var str = ""
+        var isFirst = true
+        var node = head
+        while node != nil {
+            if !isFirst {
+                str.append("->\(node!.val)")
+            } else {
+                str.append("\(node!.val)")
+                isFirst = false
+            }
+            node = node?.next
+        }
+        print(str)
+    }
+    
 }
