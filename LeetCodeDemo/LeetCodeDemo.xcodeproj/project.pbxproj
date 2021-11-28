@@ -94,6 +94,7 @@
 		E4BB406825BDC3CC008E963D /* CountingBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB406725BDC3CC008E963D /* CountingBits.swift */; };
 		E4BBB75C258F4AA400225CB6 /* PermuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */; };
 		E4BBB75F258F7CF400225CB6 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BBB75E258F7CF400225CB6 /* Codec.swift */; };
+		E4E17E042753CA5600FE8DA2 /* ValidSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E17E032753CA5600FE8DA2 /* ValidSquare.swift */; };
 		E4EBEBC22596CB99007D26FE /* RobotSim.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC12596CB99007D26FE /* RobotSim.swift */; };
 		E4EBEBC52596D682007D26FE /* WordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC42596D682007D26FE /* WordLadder.swift */; };
 		E4EBEBC825972146007D26FE /* Minesweeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EBEBC725972146007D26FE /* Minesweeper.swift */; };
@@ -230,6 +231,7 @@
 		E4BB406725BDC3CC008E963D /* CountingBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingBits.swift; sourceTree = "<group>"; };
 		E4BBB75B258F4AA400225CB6 /* PermuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermuteUnique.swift; sourceTree = "<group>"; };
 		E4BBB75E258F7CF400225CB6 /* Codec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
+		E4E17E032753CA5600FE8DA2 /* ValidSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSquare.swift; sourceTree = "<group>"; };
 		E4EBEBC12596CB99007D26FE /* RobotSim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotSim.swift; sourceTree = "<group>"; };
 		E4EBEBC42596D682007D26FE /* WordLadder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordLadder.swift; sourceTree = "<group>"; };
 		E4EBEBC725972146007D26FE /* Minesweeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minesweeper.swift; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 		E425119C257E7B7000BA6EE3 /* LeetCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E4E17E022753C9FF00FE8DA2 /* Math */,
 				E425119D257E7B7000BA6EE3 /* main.swift */,
 				1803F64E258B553800CD5C03 /* Tree.swift */,
 				E47D15B325E14A230074EE20 /* Array */,
@@ -419,6 +422,14 @@
 				1824E76A25EDF7C50055E691 /* ReverseLinkListInKGroup.swift */,
 			);
 			path = LinkList;
+			sourceTree = "<group>";
+		};
+		E4E17E022753C9FF00FE8DA2 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				E4E17E032753CA5600FE8DA2 /* ValidSquare.swift */,
+			);
+			path = Math;
 			sourceTree = "<group>";
 		};
 		E4EBEBFF25A20BEB007D26FE /* DynamicPrograming */ = {
@@ -639,6 +650,7 @@
 				E4A07E9225CED033002C24E4 /* LinkedListCycleII.swift in Sources */,
 				18D87006259981AD0056FB8F /* MinGeneticMutation.swift in Sources */,
 				18D8700C2599CF980056FB8F /* ValidPerfectSquare.swift in Sources */,
+				E4E17E042753CA5600FE8DA2 /* ValidSquare.swift in Sources */,
 				E41114DA25937D71007E9A3A /* MaxProfit.swift in Sources */,
 				E4EBEBED259F77DE007D26FE /* LongestCommonSubsequence.swift in Sources */,
 				E4B29FDF25DEB5200057A6F0 /* LongestSubstringWithoutRepeat.swift in Sources */,
